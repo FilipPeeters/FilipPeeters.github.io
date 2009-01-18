@@ -1,33 +1,8 @@
 body {
-	background-image: url(file://y:/filippeeters.com/public/images/achtergrond.jpg);
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
+	background-image: url(images/achtergrond.jpg);
 	background-color: #070705;
 	color: white; 
-	text-transform: uppercase;
-}
-h1 {
-	font-size: 18px;
-	margin: 0;
-	float: left;
-	padding-left: 75px;
-	padding-top: 50px;
-}
-ul {
-	list-style: none;
-	margin: 0;
-	padding: 50px 0;
-	float: left;
-	}
-li {
-	display: inline;
-	padding-left: 12px;
 }
 a {
-	text-decoration: none;
 	color: white;
-}
-soul {
-	background: url(file://y:/filippeeters.com/public/images/Filip%20met%20schaars%20geklede%20dame.JPG) left top no-repeat;
 }

@@ -1,0 +1,63 @@
+body {
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+h1 {
+	font-size: 18px;
+	margin: 0;
+	float: left;
+	padding: 50px 6px 0 75px;
+	text-transform: uppercase;
+}
+ul {
+	list-style: none;
+	margin: 50px 0;
+	padding: 0;
+	float: left;
+	text-transform: uppercase;
+	}
+li {
+	display: inline;
+	padding: 0 6px;
+}
+a {
+	text-decoration: none;
+}
+img {
+	position: absolute;
+	top: 30%;
+	visibility: hidden;
+}
+.left {
+	left: 12%;
+}
+.right {
+	right: 12%;
+}
+.center {
+	left: 50%;
+	margin-left: -125px;
+}
+div {
+	position: absolute;
+	visibility: hidden;
+	left: 50%;
+	background-color: black;
+	color: white;
+	padding: 1em;
+}
+#awards {
+	top: 34%;
+	width: 19em;
+	height: 13em;
+	margin-left: -10.5em;
+}
+#cv {
+	top: 21%;
+	width: 34em;
+	height: 34em;
+	margin-left: -17em;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
