@@ -55,7 +55,7 @@ a {
 }
 #awards {
 	visibility: hidden;
-	width: 19em;
+	width: 25em;
 	height: 13em;
 	margin: 144px 0 0 75px;
 }
@@ -68,11 +68,12 @@ a {
 	display:block; 
 	width:1024px;
 	height:576px;
+	visibility: hidden;
 }
 #cv {
 	visibility: hidden;
-	width: 34em;
-	height: 34em;
+	width: 45em;
+	height: 45em;
 	z-index: 2;
 }
 .content {
