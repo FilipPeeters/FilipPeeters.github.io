@@ -76,7 +76,7 @@ a {
 	z-index: 2;
 	left: 50%;
 	margin-left: -27em;
-	top: 1em;
+	top: 0;
 }
 #contents{
 	clear: both;
