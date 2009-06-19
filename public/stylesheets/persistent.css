@@ -68,9 +68,6 @@ a {
 	height:576px;
 	visibility: hidden;
 }
-#background_cv {
-	z-index: 2;
-}
 #cv {
 	visibility: hidden;
 	position: absolute;
@@ -79,6 +76,7 @@ a {
 	z-index: 2;
 	left: 50%;
 	margin-left: -27em;
+	top: 1em;
 }
 #contents{
 	clear: both;
