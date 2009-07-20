@@ -18,13 +18,13 @@ ul {
 	padding: 0;
 	text-transform: uppercase;
 	z-index: 2;
-	width: 55em;
+	width: 51em;
 	display: inline;
 	}
 li {
 	display: block;
 	float: left;
-	width: 7.25em;
+	width: 8em;
 	background-color: black;
 	text-align: center;
 }
@@ -43,7 +43,6 @@ a {
 }
 #menu {
 	position: fixed;
-	font-size: 0.9em;
 	top: 50px;
 	z-index: 2;
 }
