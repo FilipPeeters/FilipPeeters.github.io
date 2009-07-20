@@ -11,15 +11,7 @@
 	var player;
 </script>
 </head>
-<body onload="player = flowplayer(	'player',
-					'flash/flowplayer-3.1.1.swf', 
-					{
-						clip : {
-							autoPlay: false,
-							autoBuffering: true,
-							url: 'video/showreel.mp4'
-							}
-					}).hide();">
+<body>
     <div id="background">
 		<img src="images/background.jpg" alt="Filip Peeters"/>
 	</div>
@@ -28,22 +20,14 @@
 		<ul>
 			<li><a href="index.html">home</a></li>
 			<li title="some photographs"><a href="#">photo's</a></li>
-			<li><a href="#">showreel</a></li>
-			<li onclick="setVisibleById('player', true);
-									 setVisibleById('background', false);
-									 setVisibleById('awards', false);	
-									 setVisibleById('cv', false);
-									 player.show();"><a href="#">excerpts</a>
+			<li><a href="javascript:window.open('video/showreel.mp4', 'different', 'height=600,width=1060,location=no,top=1,left=0')">showreel</a></li>
+			<li><a >excerpts</a>
 			</li>
-			<li onclick="player.pause();
-						 player.hide();
-						 setVisibleById('background', true);
+			<li onclick="setVisibleById('background', true);
 						 setVisibleById('awards', true);
 						 setVisibleById('cv', false);"><a href="#">awards</a>
 			</li>
-			<li onclick="player.pause();
-						 player.hide();
-						 setVisibleById('background', true);
+			<li onclick="setVisibleById('background', true);
 						 setVisibleById('awards', false);	
 						 setVisibleById('cv', true);">
 				<a href="#">filmography</a>
