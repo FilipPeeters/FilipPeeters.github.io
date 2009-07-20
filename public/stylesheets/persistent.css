@@ -18,7 +18,7 @@ ul {
 	padding: 0;
 	text-transform: uppercase;
 	z-index: 2;
-	width: 51em;
+	width: 55em;
 	display: inline;
 	}
 li {
@@ -51,6 +51,7 @@ a {
 	top: 89px;
 	width: 100%;
 	z-index: 3;
+	height: 85%;
 }
 #awards {
 	visibility: hidden;
@@ -73,7 +74,7 @@ a {
 	visibility: hidden;
 	position: absolute;
 	width: 55em;
-	height: 233%;
+	height: 100%;
 	z-index: 2;
 	left: 50%;
 	margin-left: -27em;
