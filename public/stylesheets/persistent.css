@@ -43,6 +43,7 @@ a {
 }
 #menu {
 	position: fixed;
+	font-size: 1em;
 	top: 50px;
 	z-index: 2;
 }
