@@ -7,9 +7,6 @@
 <title>Filip Peeters</title>
 <link href="stylesheets/persistent.css" rel="stylesheet" type="text/css"/>
 <script src="javascript/style.js"></script>
-<script>
-	var player;
-</script>
 </head>
 <body>
     <div id="background">
@@ -21,7 +18,15 @@
 			<li><a href="index.html">home</a></li>
 			<li title="some photographs"><a href="#">photo's</a></li>
 			<li><a onclick="window.open('video/showreel.mp4', 'player', 'height=600,width=1060,location=no,top=1,left=0')" href="#">showreel</a></li>
-			<li><a onclick="window.open('video/de_indringer.mp4', 'player', 'height=600,width=1060,location=no,top=1,left=0')" href="#">excerpts</a>
+			<li><a href="#">excerpts</a>
+				<ul>
+					<li>
+						<a href="#">Die Frau vom Checkpoint Charlie</a>
+					</li>
+					<li>
+						<a onclick="window.open('video/de_indringer.mp4', 'player', 'height=600,width=1060,location=no,top=1,left=0')" href="#">de indringer</a>
+					</li>
+				</ul>
 			</li>
 			<li onclick="setVisibleById('background', true);
 						 setVisibleById('awards', true);
@@ -43,8 +48,6 @@
 		<iframe  id="cv" src="cv.html"> [Your user agent does not support frames or is currently configured
   not to display frames. However, you may visit
   <a href="cv.html">Filip Peeters'CV.</a>]</iframe>
-	</div>
-	<div  id="player"> </div> 
 	</div>
 </body>
 </html>
