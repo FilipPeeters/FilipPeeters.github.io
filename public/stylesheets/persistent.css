@@ -94,6 +94,7 @@ h1 {
 	width: 25em;
 	height: 13em;
 	margin: 144px 0 0 75px;
+	border: none;
 }
 
 #cv {
@@ -104,6 +105,7 @@ h1 {
 	left: 50%;
 	margin-left: -27em;
 	top: 0;
+	border: none;
 }
 
 /*
@@ -130,3 +132,28 @@ h1 {
 	position: relative;
 	z-index: 2;
 }
+
+#reel {
+	visibility: hidden;
+	position: absolute;
+	margin-left: -27em;
+	width: 55em;
+	top: 80%;
+	height: 18%;
+	left: 50%;
+	border: none;
+}
+
+/*
+The style for photos.html is in that file. Should the styles be removed from here?
+
+#reel li img {
+	height: 50px;
+	width: 50px;
+}
+
+#reel li img:hover{
+	height: 200px;
+	width: 200px;
+}
+*/

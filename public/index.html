@@ -16,7 +16,10 @@
 	<div id="menu">
 		<ul>
 			<li><a href="index.html">home</a></li>
-			<li title="some photographs"><a href="#">photo's</a></li>
+			<li onclick="setVisibleById('background', true);
+						 setVisibleById('awards', false);
+						 setVisibleById('cv', false);
+						 setVisibleById('reel',true);"title="some photographs"><a href="#">photo's</a></li>
 			<li><a onclick="window.open('video/showreel.mp4', 'player', 'height=610,width=1065,location=no,top=1,left=0')" href="#">showreel</a></li>
 			<li><a href="#">excerpts</a>
 				<ul>
@@ -33,24 +36,29 @@
 			</li>
 			<li onclick="setVisibleById('background', true);
 						 setVisibleById('awards', true);
-						 setVisibleById('cv', false);"><a href="#">awards</a>
+						 setVisibleById('cv', false);
+						 setVisibleById('reel',false);"><a href="#">awards</a>
 			</li>
 			<li onclick="setVisibleById('background', true);
 						 setVisibleById('awards', false);	
-						 setVisibleById('cv', true);">
+						 setVisibleById('cv', true);
+						 setVisibleById('reel',false);">
 				<a href="#">filmography</a>
 			</li>
 			<li><a href="#">contact</a></li>
 		</ul>
 	</div>
 	<div id="contents">
-	<div >
+	<div>
 		<iframe id="awards" src="awards.html"></iframe>
 	</div>
 	<div>
 		<iframe  id="cv" src="cv.html"> [Your user agent does not support frames or is currently configured
-  not to display frames. However, you may visit
-  <a href="cv.html">Filip Peeters'CV.</a>]</iframe>
+ 		 not to display frames. However, you may visit
+  		<a href="cv.html">Filip Peeters'CV.</a>]</iframe>
+	</div>
+	<div>
+		<iframe id="reel" src="photos.html"></iframe>
 	</div>
 </body>
 </html>
