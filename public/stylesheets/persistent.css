@@ -56,7 +56,8 @@ h1 {
 #menu li {
 	display: block;
 	width: 8em;
-	background-color: #fefefe;
+	background-image: url(../images/menubackground.png);
+	/*background-color: #fefefe;*/
 	text-align: left;
 	position: relative;
 	text-indent: 0.5em;
