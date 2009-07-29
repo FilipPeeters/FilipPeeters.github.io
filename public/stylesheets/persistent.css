@@ -68,6 +68,7 @@ h1 {
 	width: 21em;
 	text-align: left;
 	text-indent: 2em;
+	top: -2px;
 }
 
 #menu a {
