@@ -1,0 +1,43 @@
+#year, .cv td:first-child{
+	
+}
+
+#production, .cv td:first-child + td {
+	font-weight: bold;
+}
+
+#part, .cv td:first-child + td + td {
+	
+}
+
+#director, .cv td:first-child + td + td + td {
+	
+}
+
+tr {
+	height: 10pt;
+}
+
+#producer, .cv td:first-child + td + td + td + td {
+	
+}
+
+#aka {
+	font-weight: normal;
+}
+
+#production_award{
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+th {
+	font-style: italic;
+	text-align: left;
+	border-bottom-style: solid;
+}
+
+body{
+	font-size: 10pt;
+	font-family: "Times New Roman", serif;
+}
