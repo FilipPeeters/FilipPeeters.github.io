@@ -29,3 +29,7 @@ function setVisibleById(id, b) {
 		a.style.display = 'none';
 	}
 }
+
+function openFilmWindow(url){
+	window.open(url, 'player', 'height=610,width=1065,location=no,top=1,left=0');
+}
