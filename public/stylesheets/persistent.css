@@ -1,8 +1,6 @@
 html, body  {
-	padding:0;
 	height: 100%;
 }
-
 * {
 	margin:0;
 	padding:0;
@@ -10,15 +8,6 @@ html, body  {
 
 body {
 	overflow: hidden;
-}
-
-h1 {
-	font-size: 18px;
-	margin: 0 6px 0 75px;
-	text-transform: uppercase;
-	position: fixed;
-	top: 50px;
-	z-index: 3;
 }
 
 #background{
@@ -33,17 +22,21 @@ h1 {
 	width: 100%;
 }
 
+#menu h1 {
+	font-size: 1.1em;
+	text-transform: uppercase;
+	z-index: 3;
+}
+
 #menu {
 	position: fixed;
-	top: 75px;
 	z-index: 3;
-	left: 75px;
+	margin: 2em 0 0 4em;
 }
 
 #menu ul {
 	list-style: none;
 	text-transform: uppercase;
-	z-index: 3;
 }
 
 #menu ul ul {
@@ -55,19 +48,16 @@ h1 {
 
 #menu li {
 	display: block;
+	font-size: 1em;
 	width: 8em;
-	background-image: url(../images/menubackground.png);
-	/*background-color: #fefefe;*/
 	text-align: left;
 	position: relative;
-	text-indent: 0.5em;
-	border-top: 2px solid #E8E8E8;
+	
 }
 
 #menu li li {
 	width: 21em;
 	text-align: left;
-	text-indent: 2em;
 	top: -2px;
 }
 
@@ -86,28 +76,35 @@ h1 {
 }
 
 #contents {
-	top: 89px;
-	width: 100%;
+	top: 36px;
+	/*width: 100%;*/
 	height: 85%;
+	display: none;
+	clear: both;
+	position: relative;
+	z-index: 2;
 }
 
 #awards {
-	visibility: hidden;
+	display: none;
 	width: 25em;
 	height: 13em;
-	margin: 144px 0 0 75px;
+	margin: 2em 0 0 10em;
 	border: none;
+	position: relative;
+	z-index: 2;
 }
 
 #cv {
-	visibility: hidden;
-	position: absolute;
+	display: none;
+	position: relative;
 	width: 55em;
 	height: 100%;
 	left: 50%;
 	margin-left: -27em;
 	top: 0;
 	border: none;
+	z-index: 2;
 }
 
 /*
@@ -129,14 +126,8 @@ h1 {
  * End of scrollbar specific styling.
  */
 
-#contents{
-	clear: both;
-	position: relative;
-	z-index: 2;
-}
-
 #reel {
-	visibility: hidden;
+	display: none;
 	position: absolute;
 	margin-left: -27em;
 	width: 55em;

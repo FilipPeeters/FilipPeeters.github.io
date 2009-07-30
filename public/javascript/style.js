@@ -24,8 +24,8 @@ function setVisibleById(id, b) {
 	var a;
 	a = document.getElementById(id);
 	if (b){
-		a.style.visibility = 'visible';
+		a.style.display = 'block';
 	} else {
-		a.style.visibility = 'hidden';
+		a.style.display = 'none';
 	}
 }
