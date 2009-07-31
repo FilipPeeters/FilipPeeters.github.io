@@ -11,7 +11,6 @@
 <body>
     <div id="background">
     	<a href="#" onclick="setVisibleById('background', true);
-    						 
     						 setVisibleById('awards', false);
     						 setVisibleById('cv', false);
     						 setVisibleById('reel', false);">
@@ -25,9 +24,14 @@
 			<li onclick="setVisibleById('background', true);
 						 setVisibleById('awards', false);
 						 setVisibleById('cv', false);
-						 
 						 setVisibleById('reel',true);"title="some photographs"><a href="#">photo's</a></li>
-			<li><a onclick="window.open('video/showreel.mp4', 'player', 'height=610,width=1065,location=no,top=1,left=0')" href="#">showreel</a></li>
+						 
+			<li><a href="#">showreel</a>
+				<ul>
+					<li><a href="#" onclick="openFilmWindow('videos/HQ/showreel.mp4')">HQ</a></li>
+					<li><a href="#" onclick="openFilmWindow('videos/LQ/showreel.mp4')">LQ</a></li>
+				</ul>
+			</li>
 			<li><a href="#">excerpts</a>
 				<ul>
 					<li><a href="#">HQ</a>
