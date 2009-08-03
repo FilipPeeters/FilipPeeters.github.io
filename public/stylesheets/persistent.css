@@ -27,6 +27,7 @@ body {
 	font-size: 1.1em;
 	text-transform: uppercase;
 	z-index: 3;
+	height: 1.3em;
 }
 
 #menu {
@@ -43,10 +44,12 @@ body {
 
 #menu li {
 	font-size: 1em;
+	height: 3em;
 	width: 8em;
 	text-align: left;
 	position: relative;
 	text-align: left;
+	/*cursor: pointer;*/
 }
 
 #menu ul li:hover ul, #menu ul li:hover li:hover ul {
@@ -91,7 +94,7 @@ body {
 	display: none;
 	width: 25em;
 	height: 13em;
-	margin: 2em 0 0 14em;
+	margin: 2.4em 0 0 14.5em;
 	border: none;
 	position: absolute;
 	z-index: 2;
@@ -103,7 +106,7 @@ body {
 	width: 55em;
 	height: 90%;
 	left: 14em;
-	top: 2em;
+	top: 1.4em;
 	border: none;
 	z-index: 2;
 }
