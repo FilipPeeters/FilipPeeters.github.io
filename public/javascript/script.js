@@ -3,8 +3,8 @@ function setTitle(title){
 }
 
 function playFilm(url){
-	document.getElementById('video').src = '/home/criss/werk/filippeeters.com/public/video/'+getQualityString(getQuality())+getTitle(url)+'.mp4';
-	document.getElementById('video').src = '/home/criss/werk/filippeeters.com/public/video/'+getQualityString(getQuality())+getTitle(url)+'.mp4';
+	document.getElementById('video').src = 'video/'+getQualityString(getQuality())+getTitle(url)+'.mp4';
+	document.getElementById('video').src = 'video/'+getQualityString(getQuality())+getTitle(url)+'.mp4';
 }
 
 function getQualityString(useHighQuality){
