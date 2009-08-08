@@ -26,25 +26,28 @@ body {
 #menu h1 {
 	font-size: 1.1em;
 	text-transform: uppercase;
-	z-index: 3;
-	height: 1.3em;
+	height: 12.5%;
+	vertical-align: middle;
 }
 
 #menu {
 	position: fixed;
-	z-index: 3;
-	margin: 2em 0 0 4em;
+	z-index: 500;
+	margin: 2% 0 0 4em;
+	height: 97%;
 }
 
 #menu ul {
 	display: block;
 	list-style: none;
 	text-transform: uppercase;
+	height: 87.5%;
 }
 
 #menu li {
+	vertical-align: middle;
 	font-size: 1em;
-	height: 3em;
+	height: 14.28%;
 	width: 8em;
 	text-align: left;
 	position: relative;
@@ -64,7 +67,8 @@ body {
 }
 
 #menu li li {
-	width: 2em;
+	width: 21em;
+	height: 2em;
 }
 
 #menu li li li {

@@ -1,0 +1,62 @@
+<html>
+	<head>
+		<meta name="author" content="Criss Wullaert">
+		<title>De Hel van Tanger</title>
+		<link href="stylesheets/style_movie.css" rel="stylesheet" type="text/css"/>
+		<script src="javascript/script.js"></script>
+	</head>
+	<body onload="playFilmOfOpener();" onresize="setToCorrectSize();">
+		<div class="movie">
+		<embed 	src="video/HQ/De Hel van Tanger.mp4"
+				height="610", width="1065" id="video" name="video"></embed>
+		</div>
+		<div class="menu" id="menu">
+			<ul>
+				<li>
+					<form name="quality">
+						<input type="radio" name="" checked="checked">High Quality</input>
+						<input type="radio" name="">Low Quality</input>
+					</form>
+				</li>
+				<li id="vid" onclick="playFilm('1'); setTitle(getTitle('1'));">
+					<img src="images/De Hel van Tanger.png" align="left">
+					<span>De Hel van Tanger</span>
+				</li>
+				<li id="vid" onclick="playFilm('2'); setTitle(getTitle('2'));">
+					<img src="images/Ein Langes Abschied.png">
+					<span>Ein Langes Abschied</span>
+				</li>
+				<li>
+					<img src="images/Die Frau vom Checkpoint Charlie_1.png">
+					<span id="vid" onclick="playFilm('3'); setTitle(getTitle('3'));">Die Frau vom Checkpoint Charlie</span>
+				</li>
+				<li id="vid" onclick="playFilm('4'); setTitle(getTitle('4'));">
+					<img src="images/Die Frau vom Checkpoint Charlie_2.png">
+					<span>Die Frau vom Checkpoint Charlie</span>
+				</li>
+				<li id="vid" onclick="playFilm('5'); setTitle(getTitle('5'));">
+					<img src="images/Stratospheregirl_1.png">
+					<span>Stratospheregirl</span>
+				</li>
+				<li id="vid" onclick="playFilm('6'); setTitle(getTitle('6'));">
+					<img src="images/Stratospheregirl_2.png">
+					<span>Stratospheregirl</span>
+				</li>
+				<li id="vid" onclick="playFilm('7'); setTitle(getTitle('7'));">
+					<img src="images/De Indringer.png">
+					<span>De Indringer</span>
+				</li>
+				<li id="vid" onclick="playFilm('8'); setTitle(getTitle('8'));">
+					<img src="images/Resistance.png">
+					<span>Resistance</span>
+				</li>
+				<li id="vid" onclick="playFilm('0'); setTitle(getTitle('0'));">
+					<img src="images/Showreel.png">
+					<span>Showreel</span>
+				</li>
+				
+			</ul>
+		</div>
+		
+	</body>
+</html>
