@@ -109,7 +109,8 @@ body {
 	position: absolute;
 	width: 55em;
 	height: 90%;
-	left: 14em;
+	left: 50%;
+	margin-left: -27.5em;
 	top: 1.4em;
 	border: none;
 	z-index: 2;
