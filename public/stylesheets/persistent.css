@@ -76,6 +76,7 @@ body {
 }
 
 #menu a {
+vertical-align: middle;
 	color: #909090;
 	text-decoration: none;
 	display:block;

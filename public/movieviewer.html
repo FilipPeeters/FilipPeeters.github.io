@@ -1,21 +1,23 @@
-<html>
-	<head>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">	<head>
 		<meta name="author" content="Criss Wullaert">
 		<title>De Hel van Tanger</title>
 		<link href="stylesheets/style_movie.css" rel="stylesheet" type="text/css"/>
 		<script src="javascript/script.js"></script>
 	</head>
-	<body onload="playFilmOfOpener();" onresize="setToCorrectSize();">
+	<body>
 		<div class="movie">
 		<embed 	src="video/HQ/De Hel van Tanger.mp4"
-				height="610", width="1065" id="video" name="video"></embed>
+				type="video/mpeg"
+				height="610" width="1065" id="video" name="video"></embed>
 		</div>
 		<div class="menu" id="menu">
 			<ul>
 				<li>
 					<form name="quality">
-						<input type="radio" name="" checked="checked">High Quality</input>
-						<input type="radio" name="">Low Quality</input>
+						<input type="radio" name="qualityButton" checked="checked">High Quality</input>
+						<input type="radio" name="qualityButton">Low Quality</input>
 					</form>
 				</li>
 				<li id="vid" onclick="playFilm('1'); setTitle(getTitle('1'));">
