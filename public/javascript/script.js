@@ -38,6 +38,7 @@ function getQuality(){
 function playFilmOfOpener(){
 	if(opener != null){
 		element = opener.document.getElementById('film');
+		alert('are you sure you want to see movie ' + element.value);
 		playFilm(element.value);
 		setTitle(''+getTitle(element.value));
 	}
