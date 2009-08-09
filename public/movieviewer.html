@@ -7,16 +7,17 @@
 		<link href="stylesheets/style_movie.css" rel="stylesheet" type="text/css"/>
 		<script src="javascript/script.js"></script>
 	</head>
-	<body>
+	<body style="height: 500px; width: 600px;">
 		<div class="movie">
 			<embed 	src="video/LQ/De Hel van Tanger.mp4"
-					type="video/mpeg" height="205" width="345" id="video" name="video"></embed>	
+					type="video/mpeg" height="205" width="345" id="video" name="video"/>
 			<form name="quality" id="quality">
-					<input type="radio" name="qualityButton" checked="checked">High Quality</input>
-					<input type="radio" name="qualityButton">Low Quality</input>
+					<input type="radio" name="qualityButton" onchange="self.resizeTo(1050, 630)"/>High Quality
+					<input type="radio" name="qualityButton" checked="checked" onchange="self.resizeTo(680,240)"/>Low Quality
 			</form>
 		</div>
-		<iframe id="menu" src="trailer_list.html"/>
+		<iframe id="menu" src="trailer_list.html">[Your user agent does not support frames or is currently configured
+ 		 not to display frames. Sorry, cannot generate menu without it.]</iframe>
 		
 	</body>
 </html>
