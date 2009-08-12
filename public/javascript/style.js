@@ -7,3 +7,8 @@ function setVisibleById(id, b) {
 		a.style.display = 'none';
 	}
 }
+
+function playMovie(filmNumber){
+	document.getElementById('film').value = filmNumber;
+	window.open('movieviewer.html', 'player', 'height=240,width=680,top=1,left=0')
+}

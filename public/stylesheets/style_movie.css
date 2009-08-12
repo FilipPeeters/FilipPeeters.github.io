@@ -12,16 +12,19 @@
 }
 
 .horizontal {
-	/*width: 1050px;
-	height: 80px;
-	overflow-y: hidden;
-	overflow-x: auto;*/
 	display: none;
+	width: 1050px;
+	height: 55px;
+	/*overflow-y: hidden;
+	overflow-x: scroll;*/
+}
+
+.horizontal ul {
+	display: table-row;
 }
 
 .horizontal li {
-	/*display: inline;
-	float: left;*/
+	display: table-cell;
 }
 
 #menu ul {
@@ -37,14 +40,17 @@
 #menu li {
 	list-style: none;
 	width: 300px;
-	display: block;
 	height: 50px;
 	padding: 5px;
-	position: relative;
 	background-color: gray;
 	color: black;
 	cursor: pointer;
 	font-size: 10pt;
+}
+
+.vertical li {
+	position: relative;
+	display: block;
 }
 
 #menu li:hover {

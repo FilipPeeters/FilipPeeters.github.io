@@ -38,7 +38,6 @@ function getQuality(){
 function playFilmOfOpener(){
 	if(opener != null){
 		element = opener.document.getElementById('film');
-		alert('are you sure you want to see movie ' + element.value);
 		playFilm(element.value);
 		setTitle(''+getTitle(element.value));
 	}
@@ -47,6 +46,7 @@ function playFilmOfOpener(){
 function toHQ(){
 	self.resizeTo(1050, 700);
 	document.getElementById("menu").className="horizontal";
+	
 }
 
 function toLQ(){
