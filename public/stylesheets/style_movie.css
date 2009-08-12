@@ -1,40 +1,52 @@
-.movie {
-	float: left;
-}
-#menu {
-	border: none;
-	height: 205px;
-}
 .menu {
-	position: relative;
-	top: -10px;
+	width:100%;
 }
-.menu ul {
+
+.vertical {
+	position: absolute;
+	top: 9px;
+	height: 205px;
+	left: 360px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.horizontal {
+	/*width: 1050px;
+	height: 80px;
+	overflow-y: hidden;
+	overflow-x: auto;*/
+	display: none;
+}
+
+.horizontal li {
+	/*display: inline;
+	float: left;*/
+}
+
+#menu ul {
 	margin: 0px;
 	padding: 0px;
 }
 
-.menu img {
-	margin: 0 auto;
+#menu img {
 	height: 100%;
 	float: left;
-	display: inline;
 }
 
-.vid {
-	cursor: pointer;
-	font-size: 10pt;
-}
-
-.menu li {
+#menu li {
+	list-style: none;
+	width: 300px;
 	display: block;
 	height: 50px;
 	padding: 5px;
 	position: relative;
 	background-color: gray;
 	color: black;
+	cursor: pointer;
+	font-size: 10pt;
 }
 
-.menu li:hover {
+#menu li:hover {
 	background-color: green;
 }

@@ -7,17 +7,59 @@
 		<link href="stylesheets/style_movie.css" rel="stylesheet" type="text/css"/>
 		<script src="javascript/script.js"></script>
 	</head>
-	<body style="height: 500px; width: 600px;">
+	<body>
 		<div class="movie">
 			<embed 	src="video/LQ/De Hel van Tanger.mp4"
 					type="video/mpeg" height="205" width="345" id="video" name="video"/>
 			<form name="quality" id="quality">
-					<input type="radio" name="qualityButton" onchange="self.resizeTo(1050, 630)"/>High Quality
-					<input type="radio" name="qualityButton" checked="checked" onchange="self.resizeTo(680,240)"/>Low Quality
+					<input type="radio" name="qualityButton" onchange="toHQ()"/>High Quality
+					<input type="radio" name="qualityButton" checked="checked" onchange="toLQ()"/>Low Quality
 			</form>
 		</div>
-		<iframe id="menu" src="trailer_list.html">[Your user agent does not support frames or is currently configured
- 		 not to display frames. Sorry, cannot generate menu without it.]</iframe>
+		<div class="vertical" id="menu">
+			<ul>
+				<li onclick="playFilm('1'); setTitle(getTitle('1'));">
+					<img src="images/De Hel van Tanger.png" align="left">
+					<span>De Hel van Tanger</span>
+				</li>
+				<li onclick="playFilm('2'); setTitle(getTitle('2'));">
+					<img src="images/Ein Langes Abschied.png">
+					<span>Ein Langes Abschied</span>
+				</li>
+				<li onclick="playFilm('3'); setTitle(getTitle('3'));">
+					<img src="images/Die Frau vom Checkpoint Charlie_1.png">
+					<span>Die Frau vom Checkpoint Charlie</span>
+				</li>
+				<li onclick="playFilm('4'); setTitle(getTitle('4'));">
+					<img src="images/Die Frau vom Checkpoint Charlie_2.png">
+					<span>Die Frau vom Checkpoint Charlie</span>
+				</li>
+				<li onclick="playFilm('5'); setTitle(getTitle('5'));">
+					<img src="images/Stratospheregirl_1.png">
+					<span>Stratospheregirl</span>
+				</li>
+				<li onclick="playFilm('6'); setTitle(getTitle('6'));">
+					<img src="images/Stratospheregirl_2.png">
+					<span>Stratospheregirl</span>
+				</li>
+				<li onclick="playFilm('7'); setTitle(getTitle('7'));">
+					<img src="images/De Indringer.png">
+					<span>De Indringer</span>
+				</li>
+				<li onclick="playFilm('8'); setTitle(getTitle('8'));">
+					<img src="images/Resistance.png">
+					<span>Resistance</span>
+				</li>
+				<li onclick="playFilm('0'); setTitle(getTitle('0'));">
+					<img src="images/Showreel.png">
+					<span>Showreel</span>
+				</li>
+				
+			</ul>
+		</div>
 		
+<!--		<iframe id="menu" src="trailer_list.html">[Your user agent does not support frames or is currently configured
+ 		 not to display frames. Sorry, cannot generate menu without it.]</iframe>
+-->		
 	</body>
 </html>

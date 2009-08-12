@@ -44,24 +44,12 @@ function playFilmOfOpener(){
 	}
 }
 
-function createMenu(){
-	menu = document.getElementById("menu");
-	result = '<ul><li><form name="quality"><input type="radio" name="" checked="checked">High Quality</input><input type="radio" name="">Low Quality</input></form></li>';
-	for (i=0;i!=9;i++){
-		result = result+getListItemString(i);
-	}
-	menu.innerHTML=result;
+function toHQ(){
+	self.resizeTo(1050, 700);
+	document.getElementById("menu").className="horizontal";
 }
 
-function getListItemString(number){
-	return '<li><img src="images/'+getTitle(''+number)+'.png" style="height: 50px;"><br/><span id="vid" onclick="playFilm('+number+''+'); setTitle(getTitle('+number+'));">'+getTitle(''+number)+'</span></li>';
-}
-
-var availableHeight = self.screen.availHeight;
-var availableWidth = self.screen.availWidth;
-
-var heightFor
-
-function setToCorrectSize(){
-	self.screen
+function toLQ(){
+	self.resizeTo(680, 400);
+	document.getElementById("menu").className="vertical";
 }
