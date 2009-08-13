@@ -1,10 +1,21 @@
+var filmPlayed = 1;
+
+function setFilmPlayed(value){
+	filmPlayed = value;
+}
+
 function setTitle(title){
 	document.title = title+' - filippeeters.com';
 }
 
-function playFilm(url){
+function playFilmByURL(url){
 	document.getElementById('video').src = 'video/'+getQualityString(getQuality())+getTitle(url)+'.mp4';
 	document.getElementById('video').src = 'video/'+getQualityString(getQuality())+getTitle(url)+'.mp4';
+}
+
+function playFilm(){
+	playFilmByURL(filmPlayed);
+	setTitle(getTitle(filmPlayed));
 }
 
 function getQualityString(useHighQuality){
@@ -38,18 +49,26 @@ function getQuality(){
 function playFilmOfOpener(){
 	if(opener != null){
 		element = opener.document.getElementById('film');
-		playFilm(element.value);
-		setTitle(''+getTitle(element.value));
+		setFilmPlayed(element.value);
+		playFilm();
 	}
 }
 
 function toHQ(){
-	self.resizeTo(1050, 700);
+	self.resizeTo(1100, 750);
+	movie = document.getElementById('video');
+	movie.height="576";
+	movie.width="1050";
 	document.getElementById("menu").className="horizontal";
+	playFilm();
 	
 }
 
 function toLQ(){
 	self.resizeTo(680, 400);
+	movie = document.getElementById('video');
+	movie.height="192";
+	movie.width="350";
 	document.getElementById("menu").className="vertical";
+	playFilm();
 }
