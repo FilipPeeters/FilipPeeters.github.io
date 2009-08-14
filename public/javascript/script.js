@@ -1,4 +1,6 @@
 var filmPlayed = 1;
+var height = "205";
+var width = "345";
 
 function setFilmPlayed(value){
 	filmPlayed = value;
@@ -9,8 +11,8 @@ function setTitle(title){
 }
 
 function playFilmByURL(url){
-	document.getElementById('video').src = 'video/'+getQualityString(getQuality())+getTitle(url)+'.mp4';
-	document.getElementById('video').src = 'video/'+getQualityString(getQuality())+getTitle(url)+'.mp4';
+	movie_div = document.getElementById('video');
+	movie_div.innerHTML = '<embed src="video/' + getQualityString(getQuality()) + getTitle(url) + '.mp4" type="video/mpeg" height=' +height+ ' width=' +width+' name="video"/>';
 }
 
 function playFilm(){
@@ -55,20 +57,18 @@ function playFilmOfOpener(){
 }
 
 function toHQ(){
-	self.resizeTo(1100, 750);
-	movie = document.getElementById('video');
-	movie.height="576";
-	movie.width="1050";
+	self.resizeBy(385, 385);
+	height="590";
+	width="1050";
 	document.getElementById("menu").className="horizontal";
 	playFilm();
 	
 }
 
 function toLQ(){
-	self.resizeTo(680, 400);
-	movie = document.getElementById('video');
-	movie.height="192";
-	movie.width="350";
+	self.resizeBy(-385, -385);
+	height = "205";
+	width = "345";
 	document.getElementById("menu").className="vertical";
 	playFilm();
 }

@@ -8,14 +8,12 @@
 		<script src="javascript/script.js"></script>
 	</head>
 	<body onload="playFilmOfOpener();">
-		<div class="movie">
-			<embed 	src="video/LQ/De Hel van Tanger.mp4"
-					type="video/mpeg" height="205" width="345" id="video" name="video"/>
+		<div class="movie" id="video">
+		</div>
 			<form name="quality" id="quality">
 					<input type="radio" name="qualityButton" onchange="toHQ()"/>High Quality
 					<input type="radio" name="qualityButton" checked="checked" onchange="toLQ()"/>Low Quality
 			</form>
-		</div>
 		<div class="vertical" id="menu">
 			<ul>
 				<li onclick="setFilmPlayed('1'); playFilm();">
