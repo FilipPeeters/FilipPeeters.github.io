@@ -20,15 +20,14 @@
 		<div id="menu">
 			<h1>Filip Peeters</h1>
 			<ul>
-				<li><a href="index.html">home</a></li>
-				<li><a onclick="setVisibleById('background', true);
+				<li class="hidden"><a onclick="setVisibleById('background', true);
 							 setVisibleById('awards', false);
 							 setVisibleById('cv', false);
 							 setVisibleById('reel',true);" title="some photographs" href="#">photo's</a></li>
-				<li>
+				<li class="shown">
 					<a href="#" onclick="playMovie(0);">showreel</a>
 				</li>
-				<li><a href="#">excerpts</a>
+				<li class="shown"><a href="#">excerpts</a>
 					<ul>
 						<li>
 							<a onclick="playMovie(3);" href="#">Die Frau vom Checkpoint Charlie</a>
@@ -56,20 +55,20 @@
 						</li>
 					</ul>
 				</li>
-				<li><a onclick="setVisibleById('background', true);
+				<li class="shown"><a onclick="setVisibleById('background', true);
 							 	setVisibleById('awards', true);
 								setVisibleById('cv', false);
 								setVisibleById('reel',false);"
 						href="#">awards</a>
 				</li>
-				<li>
+				<li class="shown">
 					<a onclick="setVisibleById('background', true);
 							 setVisibleById('awards', false);
 							 setVisibleById('cv', true);
 							 setVisibleById('reel',false);"
 						href="#">filmography</a>
 				</li>
-				<li><a href="#">contact</a></li>
+				<li class="hidden"><a href="#">contact</a></li>
 			</ul>
 		</div>
 		<div > <!-- This used to be contents. -->

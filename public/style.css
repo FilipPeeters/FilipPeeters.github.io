@@ -1,5 +1,9 @@
-#year, .cv td:first-child{
-	
+.cv {
+	width: 100%;
+}
+
+#year, .cv td:first-child {
+	width: 3em;
 }
 
 #production, .cv td:first-child + td {
@@ -14,7 +18,7 @@
 	
 }
 
-tr {
+.cv tr {
 	height: 10pt;
 }
 
@@ -22,22 +26,25 @@ tr {
 	
 }
 
-#aka {
+.aka {
 	font-weight: normal;
 }
 
-#production_award{
-	font-weight: normal;
+.production_award {
+	font-weight: normal !important;
+}
+
+.underline {
 	text-decoration: underline;
 }
 
-th {
+.cv th {
 	font-style: italic;
 	text-align: left;
 	border-bottom-style: solid;
 }
 
-body{
+body {
 	font-size: 10pt;
 	font-family: "Times New Roman", serif;
 }
@@ -45,6 +52,39 @@ body{
 #personalia {
 	font-style: italic;
 	font-size: 10pt;
+	display: block;
+	width: 100%;
+}
+
+#personalia img {
+	float: right;
+}
+
+.personalia div {
+	display: block;
+	position: relative;
+	width: 100%;
+}
+
+.personalia div span {
+	display: block;
+	text-align: left;
+	width: 33%;
+}
+
+.personalia div span + span {
+	text-align: center;
+	width: 33%
+}
+
+.personalia div span + span + span {
+	width: 33%;
+}
+
+.selection_row {
+	font-weight: bold;
+	font-size: 1.5em;
+	text-transform: uppercase;
 }
 
 #name {
@@ -53,8 +93,12 @@ body{
 	text-align: center;
 }
 
-#title{
+#title {
 	text-align: center;
 	font-style: italic;
 	font-size: 10pt;
+}
+
+.whiteline {
+	height: 10pt;
 }
