@@ -1,5 +1,6 @@
 html, body  {
 	height: 100%;
+	font-family: sans-serif;
 }
 * {
 	margin:0;
@@ -43,55 +44,52 @@ li.hidden {
 	z-index: 500;
 	margin: 2% 0 0 4em;
 	height: 97%;
+	text-align: left;
 }
 
 #menu ul {
 	display: block;
-	list-style: none;
+	list-style-type: none;
 	text-transform: uppercase;
 	height: 87.5%;
+	width: 8em;
 }
 
 #menu li {
 	vertical-align: middle;
 	font-size: 1em;
 	height: 14.28%;
-	width: 8em;
-	text-align: left;
-	position: relative;
-	text-align: left;
-	/*cursor: pointer;*/
+	position: relative;	
 }
 
-#menu ul li:hover ul, #menu ul li:hover li:hover ul {
+#menu ul li:hover ul {
 	display: block;
 	position: absolute;
+	width: 21em;
+	left: 8em;
 }
 
-#menu ul ul, #menu ul li:hover ul ul{
+#menu ul ul {
 	display: none;
-	left: 100%;
 	top: 0;
+	left: 100%;
+	margin:0pt;
+	padding:0pt;
+	position:absolute;
 }
 
 #menu li li {
-	width: 21em;
 	height: 2em;
 }
 
-#menu li li li {
-	width: 21em;
-}
-
 #menu a {
-vertical-align: middle;
+	vertical-align: middle;
 	color: #909090;
 	text-decoration: none;
 	display:block;
 	white-space: nowrap;
 	padding: 0;
 	font-weight: bold;
-	font-family: sans-serif;
 }
 
 #contents {
@@ -111,6 +109,7 @@ vertical-align: middle;
 	border: none;
 	position: absolute;
 	z-index: 2;
+	background-color: transparent;
 }
 
 #cv {
