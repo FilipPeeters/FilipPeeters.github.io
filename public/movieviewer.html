@@ -2,54 +2,57 @@
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">	
 <head>
-		<meta name="author" content="Criss Wullaert">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="author" content="Criss Wullaert"/>
 		<title>De Hel van Tanger</title>
 		<link href="stylesheets/style_movie.css" rel="stylesheet" type="text/css"/>
-		<script src="javascript/script.js"></script>
+		<script src="javascript/script.js" type="text/javascript"></script>
 	</head>
 	<body onload="playFilmOfOpener();">
 		<div class="movie" id="video">
 		</div>
-			<form name="quality" id="quality">
+		<div>
+			<form name="quality" id="quality" action="">
 					<input type="radio" name="qualityButton" onchange="toHQ()"/>High Quality
 					<input type="radio" name="qualityButton" checked="checked" onchange="toLQ()"/>Low Quality
 			</form>
+		</div>
 		<div class="vertical" id="menu">
 			<ul>
 				<li onclick="setFilmPlayed('1'); playFilm();">
-					<img src="images/De Hel van Tanger.png" align="left">
+					<img src="images/De Hel van Tanger.png" align="left"/>
 					<span>De Hel van Tanger</span>
 				</li>
 				<li onclick="setFilmPlayed('2'); playFilm();">
-					<img src="images/Ein Langes Abschied.png">
+					<img src="images/Ein Langes Abschied.png"/>
 					<span>Ein Langes Abschied</span>
 				</li>
 				<li onclick="setFilmPlayed('3'); playFilm();">
-					<img src="images/Die Frau vom Checkpoint Charlie_1.png">
+					<img src="images/Die Frau vom Checkpoint Charlie_1.png"/>
 					<span>Die Frau vom Checkpoint Charlie</span>
 				</li>
 				<li onclick="setFilmPlayed('4'); playFilm();">
-					<img src="images/Die Frau vom Checkpoint Charlie_2.png">
+					<img src="images/Die Frau vom Checkpoint Charlie_2.png"/>
 					<span>Die Frau vom Checkpoint Charlie</span>
 				</li>
 				<li onclick="setFilmPlayed('5'); playFilm();">
-					<img src="images/Stratospheregirl_1.png">
+					<img src="images/Stratospheregirl_1.png"/>
 					<span>Stratospheregirl</span>
 				</li>
 				<li onclick="setFilmPlayed('6'); playFilm();">
-					<img src="images/Stratospheregirl_2.png">
+					<img src="images/Stratospheregirl_2.png"/>
 					<span>Stratospheregirl</span>
 				</li>
 				<li onclick="setFilmPlayed('7'); playFilm();">
-					<img src="images/De Indringer.png">
+					<img src="images/De Indringer.png"/>
 					<span>De Indringer</span>
 				</li>
 				<li onclick="setFilmPlayed('8'); playFilm();">
-					<img src="images/Resistance.png">
+					<img src="images/Resistance.png"/>
 					<span>Resistance</span>
 				</li>
 				<li onclick="setFilmPlayed('0'); playFilm();">
-					<img src="images/Showreel.png">
+					<img src="images/Showreel.png"/>
 					<span>Showreel</span>
 				</li>
 			</ul>

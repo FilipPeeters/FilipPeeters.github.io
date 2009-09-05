@@ -1,3 +1,5 @@
+var moviewindow = null;
+
 function setVisibleById(id, b) {
 	var a;
 	a = document.getElementById(id);
@@ -9,6 +11,9 @@ function setVisibleById(id, b) {
 }
 
 function playMovie(filmNumber){
+	if(moviewindow != null){
+		moviewindow.close();
+	}
 	document.getElementById('film').value = filmNumber;
-	window.open('movieviewer.html', 'player', 'height=245,width=680,top=1,left=0')
+	moviewindow = window.open('movieviewer.html', 'player', 'height=245,width=680,top=1,left=0');
 }
