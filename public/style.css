@@ -1,3 +1,7 @@
+body {
+	background-image: url(images/white.png);
+}
+
 .cv {
 	width: 100%;
 }
