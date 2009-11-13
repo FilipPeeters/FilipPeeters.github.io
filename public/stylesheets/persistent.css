@@ -60,6 +60,7 @@ li.hidden {
 	font-size: 1em;
 	height: 14.28%;
 	position: relative;	
+	background-image: url(../images/transparent.png);
 }
 
 #menu ul li:hover ul {

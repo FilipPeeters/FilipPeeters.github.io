@@ -1,33 +1,14 @@
 body{
 	overflow: hidden;
 }
-.menu {
-	width:100%;
-}
 
-.vertical {
+#menu {
 	position: absolute;
 	top: 9px;
 	height: 205px;
 	left: 360px;
 	overflow-y: auto;
 	overflow-x: hidden;
-}
-
-.horizontal {
-	display: none;
-	width: 1050px;
-	height: 55px;
-	/*overflow-y: hidden;
-	overflow-x: scroll;*/
-}
-
-.horizontal ul {
-	display: table-row;
-}
-
-.horizontal li {
-	display: table-cell;
 }
 
 #menu ul {
@@ -49,9 +30,6 @@ body{
 	color: black;
 	cursor: pointer;
 	font-size: 10pt;
-}
-
-.vertical li {
 	position: relative;
 	display: block;
 }
