@@ -65,6 +65,7 @@ function toHQ(){
 	height="590";
 	width="1050";
 	document.getElementById('video').style.cssText = 'display: block; width: ' + width + 'px; height: ' + height + 'px;';
+	document.getElementById('menu').className = 'horizontal';
 	flowplayer("video", "video/flowplayer-3.1.5.swf");
 	isLQ = false;
 	}
@@ -78,6 +79,7 @@ function toLQ(){
 	height = "205";
 	width = "345";
 	document.getElementById('video').style.cssText = 'display: block; width: ' + width + 'px; height: ' + height + 'px;';
+	document.getElementById('menu').className = 'vertical';
 	flowplayer("video", "video/flowplayer-3.1.5.swf");
 	isLQ = true;
 	}
