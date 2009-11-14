@@ -1,15 +1,16 @@
 var height = "205";
 var width = "345";
 var isLQ = true;
-
-function setTitle(title){
-	document.title = title+' - filippeeters.com';
-}
+var title = "De Hel van Tanger";
 
 function changeFilm(film){
-	var title = getTitle(film);
+	title = getTitle(film);
+	document.title = title+' - filippeeters.com';
+	return makeURL();
+}
+
+function makeURL(){
 	var url = 'video/'+getQualityString(getQuality())+title+'.mp4';
-	setTitle(title);
 	return document.getElementById('video').href = url;
 }
 
@@ -51,8 +52,6 @@ function playFilmOfOpener(){
 	if(opener != null){
 		element = opener.document.getElementById('film');
 		changeFilm(element.value);
-	} else {
-		changeFilm(1);
 	}
 	flowplayer("video", "video/flowplayer-3.1.5.swf");
 }
@@ -64,6 +63,7 @@ function toHQ(){
 	self.resizeBy(0,385)
 	height="590";
 	width="1050";
+	makeURL();
 	document.getElementById('video').style.cssText = 'display: block; width: ' + width + 'px; height: ' + height + 'px;';
 	document.getElementById('menu').className = 'horizontal';
 	flowplayer("video", "video/flowplayer-3.1.5.swf");
@@ -78,6 +78,7 @@ function toLQ(){
 	self.resizeBy(-385, 0);
 	height = "205";
 	width = "345";
+	makeURL();
 	document.getElementById('video').style.cssText = 'display: block; width: ' + width + 'px; height: ' + height + 'px;';
 	document.getElementById('menu').className = 'vertical';
 	flowplayer("video", "video/flowplayer-3.1.5.swf");
