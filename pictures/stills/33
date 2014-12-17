@@ -1,0 +1,268 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Filip Peeters</title>
+<meta name="keywords" content="Filip Peeters, acteur, film, televisie, tv, theater" />
+<meta name="description" content="" />
+<meta name="copyright" content="Filip Peeters" />
+<meta name="classification" content="Acteren, acting, television, entertainment" />
+<meta name="language" content="en, nl" />	
+<meta name="rating" content="general" />
+<meta name="robots" content="index,follow" />
+<meta name="revisit-after" content="1 day" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="cache" content="no-cache" />
+<meta http-equiv="expires" content="-1" />
+<meta name="resource-type" content="document" />	
+<meta name="MSSmartTagsPreventParsing" content="true" />
+<meta name="distribution" content="Global" />
+<meta name="rating" content="Safe For Kids" />
+<meta name="author" content="Monsieur Moir (www.monsieurmoire.com)" />
+<meta name="doc-type" content="Web Page" />
+<meta name="doc-class" content="Completed" />
+<meta name="doc-rights" content="Copywritten Work" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="google-site-verification" content="VhkVcQ9S4enfXz-2Nq3R0UA9UsfypPWU0tHvO1K_Kpk" />
+<link href="http://www.monsieurmoire.com/" rel="author" title="Monsieur Moir (www.monsieurmoire.com)" />	
+<link rev="made" href="mailto:info@monsieurmoire.com" />
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="SHORTCUT ICON" href="/favicon.ico" />
+<script type="text/javascript" src="/_js/jquery-1.4.2.js"></script>
+<script type="text/javascript" src="/_js/video.js" charset="utf-8"></script>
+<script type="text/javascript" src="/_js/jquery.tooltip.js"></script>
+
+<link href="/_css/styles.css" rel="stylesheet" type="text/css"  />
+<!--<link href="/_css/print.css" rel="stylesheet" type="text/css" media="print"  />-->
+<link href="/_css/menu_style.css" rel="stylesheet" type="text/css" media="screen"  />
+<link href="/_css/jquery.tooltip.css" rel="stylesheet" type="text/css" media="screen" />
+
+<link href="/_css/video-js.css" rel="stylesheet" type="text/css" media="screen" title="Video JS" charset="utf-8">
+<link href="/skins/vim.css" rel="stylesheet" type="text/css" media="screen" title="Video JS" charset="utf-8"> 
+<script type="text/javascript" charset="utf-8"> 
+    function resizer() {
+    	thewidth=$(document).width()-(2*44); 
+    	
+    	
+    	
+    	resizeImage();
+    }
+    $(function() {
+	    $('.items a').tooltip({
+	    	track: true,
+	    	delay: 0,
+	    	showURL: false,
+	    	showBody: " - ",
+	    	extraClass: "t", 
+	    	fade: 250
+	    });
+    });
+</script> 
+
+
+</head>
+
+<body onResize="resizer();">
+<div id="logo" style="position:absolute;top:20px;left:44px;z-index:8888;">
+	<a href="/index.php"><img src="/_img/filip_peeters.png" width="217" height="38" border="0" /></a>
+</div><div id="menu" style="position:absolute;top:34px;left:350px;z-index:8888;width:600px;height:130px;overflow:hidden;">
+	
+	<div id="outside">
+	<ul id="navigation-1">
+	   <li style="width:72px;"><a href="/bio" title="About" target="_self" ><img src="/_img/about.jpg" alt="ABOUT" border="0" class="" /></a>
+	      <ul class="navigation-2">
+	      	 <li>&nbsp;</li>
+	         <li><a href="/bio" title="Bio" target="_self" ><img src="/_img/bio.jpg" alt="BIO" border="0" /></a></li>
+	         <li><a href="/cv" title="CV" target="_self" ><img src="/_img/cv.jpg" alt="CV" border="0" /></a></li>
+	         <li><a href="/awards" title="Awards" target="_self" ><img src="/_img/awards.jpg" alt="AWARDS" border="0" /></a></li>
+	      </ul>
+	   </li>
+	   <li style="width:96px;"><a href="/excerpts" title="" target="_self" ><img src="/_img/excerpts.jpg" alt="EXCERPTS" border="0" class=""  /></a></li>
+	   <li style="width:92px;"><a href="/pictures/portraits" title="" target="_self" ><img src="/_img/pictures.jpg" alt="PICTURES" border="0" class="menu_selected" /></a>
+	  		<ul class="navigation-2_selected">
+	  		   <li>&nbsp;</li>
+	   		   <li><a href="/pictures/portraits" title="Portraits" target="_self" ><img src="/_img/portraits.jpg" alt="PORTRAITS" border="0" /></a></li>
+	   		   <li><a href="/pictures/stills" title="Stills" target="_self" ><img src="/_img/stills_over.jpg" alt="STILLS" border="0" /></a></li>
+	   		</ul>
+	   </li>
+	   <li style="width:88px;"><a href="/contact" title="" target="_self" ><img src="/_img/contact.jpg" alt="CONTACT" border="0" class="" /></a></li>
+	</ul>
+	</div>
+	
+	
+</div><div id="image" style="position:absolute;left:350px;top:175px;" onMouseOver="resizeImage();">
+	<img src="/_images/Filip_Peeters_033.jpg"  alt="" name="" id="theImage" border="0" />
+</div>
+
+
+<div style="position: absolute;left: 0px;bottom:20px;width:100%;height:72px;overflow:hidden;" id="thumbs">
+	 		<div class="items" style="position:absolute;left:40px;width:7031px;" id="reel1"><a href="/pictures/stills/1" onClick="$('#movieTitle').html('<strong></strong>');swapImage('Filip_Peeters_001.jpg',0);return false;" title=""><img src="/_thumbs/Filip_Peeters_001.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/2" onClick="$('#movieTitle').html('<strong>Dossier K</strong>');swapImage('Filip_Peeters_002.jpg',1);return false;" title="Dossier K"><img src="/_thumbs/Filip_Peeters_002.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/7" onClick="$('#movieTitle').html('<strong>De Indringer</strong>');swapImage('Filip_Peeters_007.jpg',2);return false;" title="De Indringer"><img src="/_thumbs/Filip_Peeters_007.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/8" onClick="$('#movieTitle').html('<strong>De Indringer</strong>');swapImage('Filip_Peeters_008.jpg',3);return false;" title="De Indringer"><img src="/_thumbs/Filip_Peeters_008.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/9" onClick="$('#movieTitle').html('<strong>De Indringer</strong>');swapImage('Filip_Peeters_009.jpg',4);return false;" title="De Indringer"><img src="/_thumbs/Filip_Peeters_009.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/10" onClick="$('#movieTitle').html('<strong>De Indringer</strong>');swapImage('Filip_Peeters_010.jpg',5);return false;" title="De Indringer"><img src="/_thumbs/Filip_Peeters_010.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/11" onClick="$('#movieTitle').html('<strong>De Indringer</strong>');swapImage('Filip_Peeters_011.jpg',6);return false;" title="De Indringer"><img src="/_thumbs/Filip_Peeters_011.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/12" onClick="$('#movieTitle').html('<strong>De Indringer</strong>');swapImage('Filip_Peeters_012.jpg',7);return false;" title="De Indringer"><img src="/_thumbs/Filip_Peeters_012.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/13" onClick="$('#movieTitle').html('<strong>Dossier K</strong>');swapImage('Filip_Peeters_013.jpg',8);return false;" title="Dossier K"><img src="/_thumbs/Filip_Peeters_013.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/14" onClick="$('#movieTitle').html('<strong>Baby</strong>');swapImage('Filip_Peeters_014.jpg',9);return false;" title="Baby"><img src="/_thumbs/Filip_Peeters_014.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/15" onClick="$('#movieTitle').html('<strong>Baby</strong>');swapImage('Filip_Peeters_015.jpg',10);return false;" title="Baby"><img src="/_thumbs/Filip_Peeters_015.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/16" onClick="$('#movieTitle').html('<strong>Baby</strong>');swapImage('Filip_Peeters_016.jpg',11);return false;" title="Baby"><img src="/_thumbs/Filip_Peeters_016.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/17" onClick="$('#movieTitle').html('<strong>Baby</strong>');swapImage('Filip_Peeters_017.jpg',12);return false;" title="Baby"><img src="/_thumbs/Filip_Peeters_017.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/18" onClick="$('#movieTitle').html('<strong>Baby</strong>');swapImage('Filip_Peeters_018.jpg',13);return false;" title="Baby"><img src="/_thumbs/Filip_Peeters_018.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/19" onClick="$('#movieTitle').html('<strong>De Indringer</strong>');swapImage('Filip_Peeters_019.jpg',14);return false;" title="De Indringer"><img src="/_thumbs/Filip_Peeters_019.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/20" onClick="$('#movieTitle').html('<strong>De Hel van Tanger</strong>');swapImage('Filip_Peeters_020.jpg',15);return false;" title="De Hel van Tanger"><img src="/_thumbs/Filip_Peeters_020.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/21" onClick="$('#movieTitle').html('<strong>De Hel van Tanger</strong>');swapImage('Filip_Peeters_021.jpg',16);return false;" title="De Hel van Tanger"><img src="/_thumbs/Filip_Peeters_021.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/22" onClick="$('#movieTitle').html('<strong>De Hel van Tanger</strong>');swapImage('Filip_Peeters_022.jpg',17);return false;" title="De Hel van Tanger"><img src="/_thumbs/Filip_Peeters_022.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/23" onClick="$('#movieTitle').html('<strong>De Hel van Tanger</strong>');swapImage('Filip_Peeters_023.jpg',18);return false;" title="De Hel van Tanger"><img src="/_thumbs/Filip_Peeters_023.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/24" onClick="$('#movieTitle').html('<strong>De Hel van Tanger</strong>');swapImage('Filip_Peeters_024.jpg',19);return false;" title="De Hel van Tanger"><img src="/_thumbs/Filip_Peeters_024.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/25" onClick="$('#movieTitle').html('<strong>De Hel van Tanger</strong>');swapImage('Filip_Peeters_025.jpg',20);return false;" title="De Hel van Tanger"><img src="/_thumbs/Filip_Peeters_025.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/26" onClick="$('#movieTitle').html('<strong>De Hel van Tanger</strong>');swapImage('Filip_Peeters_026.jpg',21);return false;" title="De Hel van Tanger"><img src="/_thumbs/Filip_Peeters_026.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/27" onClick="$('#movieTitle').html('<strong>De Hel van Tanger</strong>');swapImage('Filip_Peeters_027.jpg',22);return false;" title="De Hel van Tanger"><img src="/_thumbs/Filip_Peeters_027.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/28" onClick="$('#movieTitle').html('<strong>Dossier K</strong>');swapImage('Filip_Peeters_028.jpg',23);return false;" title="Dossier K"><img src="/_thumbs/Filip_Peeters_028.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/30" onClick="$('#movieTitle').html('<strong>Dossier K</strong>');swapImage('Filip_Peeters_030.jpg',24);return false;" title="Dossier K"><img src="/_thumbs/Filip_Peeters_030.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/31" onClick="$('#movieTitle').html('<strong></strong>');swapImage('Filip_Peeters_031.jpg',25);return false;" title=""><img src="/_thumbs/Filip_Peeters_031.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/32" onClick="$('#movieTitle').html('<strong></strong>');swapImage('Filip_Peeters_032.jpg',26);return false;" title=""><img src="/_thumbs/Filip_Peeters_032.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/33" onClick="$('#movieTitle').html('<strong></strong>');swapImage('Filip_Peeters_033.jpg',27);return false;" title=""><img src="/_thumbs/Filip_Peeters_033.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/34" onClick="$('#movieTitle').html('<strong></strong>');swapImage('Filip_Peeters_034.jpg',28);return false;" title=""><img src="/_thumbs/Filip_Peeters_034.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/36" onClick="$('#movieTitle').html('<strong>Soeur Sourire</strong>');swapImage('Filip_Peeters_036.jpg',29);return false;" title="Soeur Sourire"><img src="/_thumbs/Filip_Peeters_036.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/38" onClick="$('#movieTitle').html('<strong>Dossier K</strong>');swapImage('Filip_Peeters_038.jpg',30);return false;" title="Dossier K"><img src="/_thumbs/Filip_Peeters_038.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/40" onClick="$('#movieTitle').html('<strong>Loft</strong>');swapImage('Filip_Peeters_040.jpg',31);return false;" title="Loft"><img src="/_thumbs/Filip_Peeters_040.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/41" onClick="$('#movieTitle').html('<strong>Loft</strong>');swapImage('Filip_Peeters_041.jpg',32);return false;" title="Loft"><img src="/_thumbs/Filip_Peeters_041.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/42" onClick="$('#movieTitle').html('<strong>Loft</strong>');swapImage('Filip_Peeters_042.jpg',33);return false;" title="Loft"><img src="/_thumbs/Filip_Peeters_042.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/43" onClick="$('#movieTitle').html('<strong>Loft</strong>');swapImage('Filip_Peeters_043.jpg',34);return false;" title="Loft"><img src="/_thumbs/Filip_Peeters_043.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/44" onClick="$('#movieTitle').html('<strong>Loft</strong>');swapImage('Filip_Peeters_044.jpg',35);return false;" title="Loft"><img src="/_thumbs/Filip_Peeters_044.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/45" onClick="$('#movieTitle').html('<strong>Loft</strong>');swapImage('Filip_Peeters_045.jpg',36);return false;" title="Loft"><img src="/_thumbs/Filip_Peeters_045.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/46" onClick="$('#movieTitle').html('<strong>Loft</strong>');swapImage('Filip_Peeters_046.jpg',37);return false;" title="Loft"><img src="/_thumbs/Filip_Peeters_046.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/47" onClick="$('#movieTitle').html('<strong>Loft</strong>');swapImage('Filip_Peeters_047.jpg',38);return false;" title="Loft"><img src="/_thumbs/Filip_Peeters_047.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/48" onClick="$('#movieTitle').html('<strong>Loft</strong>');swapImage('Filip_Peeters_048.jpg',39);return false;" title="Loft"><img src="/_thumbs/Filip_Peeters_048.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/49" onClick="$('#movieTitle').html('<strong>Loft</strong>');swapImage('Filip_Peeters_049.jpg',40);return false;" title="Loft"><img src="/_thumbs/Filip_Peeters_049.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/50" onClick="$('#movieTitle').html('<strong>Loft</strong>');swapImage('Filip_Peeters_050.jpg',41);return false;" title="Loft"><img src="/_thumbs/Filip_Peeters_050.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/51" onClick="$('#movieTitle').html('<strong>Loft</strong>');swapImage('Filip_Peeters_051.jpg',42);return false;" title="Loft"><img src="/_thumbs/Filip_Peeters_051.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/52" onClick="$('#movieTitle').html('<strong>9mm</strong>');swapImage('Filip_Peeters_052.jpg',43);return false;" title="9mm"><img src="/_thumbs/Filip_Peeters_052.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/54" onClick="$('#movieTitle').html('<strong>De Indringer</strong>');swapImage('Filip_Peeters_054.jpg',44);return false;" title="De Indringer"><img src="/_thumbs/Filip_Peeters_054.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/55" onClick="$('#movieTitle').html('<strong></strong>');swapImage('Filip_Peeters_055.jpg',45);return false;" title=""><img src="/_thumbs/Filip_Peeters_055.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/57" onClick="$('#movieTitle').html('<strong>Soeur Sourire</strong>');swapImage('Filip_Peeters_057.jpg',46);return false;" title="Soeur Sourire"><img src="/_thumbs/Filip_Peeters_057.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/58" onClick="$('#movieTitle').html('<strong>Soeur Sourire</strong>');swapImage('Filip_Peeters_058.jpg',47);return false;" title="Soeur Sourire"><img src="/_thumbs/Filip_Peeters_058.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/59" onClick="$('#movieTitle').html('<strong>Soeur Sourire</strong>');swapImage('Filip_Peeters_059.jpg',48);return false;" title="Soeur Sourire"><img src="/_thumbs/Filip_Peeters_059.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/60" onClick="$('#movieTitle').html('<strong>Soeur Sourire</strong>');swapImage('Filip_Peeters_060.jpg',49);return false;" title="Soeur Sourire"><img src="/_thumbs/Filip_Peeters_060.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/61" onClick="$('#movieTitle').html('<strong>Soeur Sourire</strong>');swapImage('Filip_Peeters_061.jpg',50);return false;" title="Soeur Sourire"><img src="/_thumbs/Filip_Peeters_061.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/62" onClick="$('#movieTitle').html('<strong>De Hel van Tanger</strong>');swapImage('Filip_Peeters_062.jpg',51);return false;" title="De Hel van Tanger"><img src="/_thumbs/Filip_Peeters_062.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/72" onClick="$('#movieTitle').html('<strong>Die Frau vom Checkpoint Charlie</strong>');swapImage('frau-checkpoint-charlie-0015.jpg',52);return false;" title="Die Frau vom Checkpoint Charlie"><img src="/_thumbs/frau-checkpoint-charlie-0015.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/73" onClick="$('#movieTitle').html('<strong>Baby</strong>');swapImage('PICT0001.jpg',53);return false;" title="Baby"><img src="/_thumbs/PICT0001.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/74" onClick="$('#movieTitle').html('<strong>Baby</strong>');swapImage('PICT0014.jpg',54);return false;" title="Baby"><img src="/_thumbs/PICT0014.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/75" onClick="$('#movieTitle').html('<strong>Baby</strong>');swapImage('PICT0025.jpg',55);return false;" title="Baby"><img src="/_thumbs/PICT0025.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/76" onClick="$('#movieTitle').html('<strong>Baby</strong>');swapImage('PICT0048.jpg',56);return false;" title="Baby"><img src="/_thumbs/PICT0048.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/77" onClick="$('#movieTitle').html('<strong>Baby</strong>');swapImage('PICT0054.jpg',57);return false;" title="Baby"><img src="/_thumbs/PICT0054.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/78" onClick="$('#movieTitle').html('<strong>Baby</strong>');swapImage('PICT0058.jpg',58);return false;" title="Baby"><img src="/_thumbs/PICT0058.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/79" onClick="$('#movieTitle').html('<strong>Baby</strong>');swapImage('PICT0072.jpg',59);return false;" title="Baby"><img src="/_thumbs/PICT0072.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/80" onClick="$('#movieTitle').html('<strong>Baby</strong>');swapImage('PICT0119.jpg',60);return false;" title="Baby"><img src="/_thumbs/PICT0119.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/81" onClick="$('#movieTitle').html('<strong>Baby</strong>');swapImage('PICT0130.jpg',61);return false;" title="Baby"><img src="/_thumbs/PICT0130.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/82" onClick="$('#movieTitle').html('<strong>Baby</strong>');swapImage('PICT0135.jpg',62);return false;" title="Baby"><img src="/_thumbs/PICT0135.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /></div><div class="items" style="position:absolute;left:7031px;width:7031px;" id="reel2"><a href="/pictures/stills/1" onClick="$('#movieTitle').html('<strong></strong>');swapImage('Filip_Peeters_001.jpg',0);return false;" title=""><img src="/_thumbs/Filip_Peeters_001.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/2" onClick="$('#movieTitle').html('<strong>Dossier K</strong>');swapImage('Filip_Peeters_002.jpg',1);return false;" title="Dossier K"><img src="/_thumbs/Filip_Peeters_002.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/7" onClick="$('#movieTitle').html('<strong>De Indringer</strong>');swapImage('Filip_Peeters_007.jpg',2);return false;" title="De Indringer"><img src="/_thumbs/Filip_Peeters_007.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/8" onClick="$('#movieTitle').html('<strong>De Indringer</strong>');swapImage('Filip_Peeters_008.jpg',3);return false;" title="De Indringer"><img src="/_thumbs/Filip_Peeters_008.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/9" onClick="$('#movieTitle').html('<strong>De Indringer</strong>');swapImage('Filip_Peeters_009.jpg',4);return false;" title="De Indringer"><img src="/_thumbs/Filip_Peeters_009.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/10" onClick="$('#movieTitle').html('<strong>De Indringer</strong>');swapImage('Filip_Peeters_010.jpg',5);return false;" title="De Indringer"><img src="/_thumbs/Filip_Peeters_010.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/11" onClick="$('#movieTitle').html('<strong>De Indringer</strong>');swapImage('Filip_Peeters_011.jpg',6);return false;" title="De Indringer"><img src="/_thumbs/Filip_Peeters_011.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/12" onClick="$('#movieTitle').html('<strong>De Indringer</strong>');swapImage('Filip_Peeters_012.jpg',7);return false;" title="De Indringer"><img src="/_thumbs/Filip_Peeters_012.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/13" onClick="$('#movieTitle').html('<strong>Dossier K</strong>');swapImage('Filip_Peeters_013.jpg',8);return false;" title="Dossier K"><img src="/_thumbs/Filip_Peeters_013.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/14" onClick="$('#movieTitle').html('<strong>Baby</strong>');swapImage('Filip_Peeters_014.jpg',9);return false;" title="Baby"><img src="/_thumbs/Filip_Peeters_014.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/15" onClick="$('#movieTitle').html('<strong>Baby</strong>');swapImage('Filip_Peeters_015.jpg',10);return false;" title="Baby"><img src="/_thumbs/Filip_Peeters_015.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/16" onClick="$('#movieTitle').html('<strong>Baby</strong>');swapImage('Filip_Peeters_016.jpg',11);return false;" title="Baby"><img src="/_thumbs/Filip_Peeters_016.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/17" onClick="$('#movieTitle').html('<strong>Baby</strong>');swapImage('Filip_Peeters_017.jpg',12);return false;" title="Baby"><img src="/_thumbs/Filip_Peeters_017.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/18" onClick="$('#movieTitle').html('<strong>Baby</strong>');swapImage('Filip_Peeters_018.jpg',13);return false;" title="Baby"><img src="/_thumbs/Filip_Peeters_018.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/19" onClick="$('#movieTitle').html('<strong>De Indringer</strong>');swapImage('Filip_Peeters_019.jpg',14);return false;" title="De Indringer"><img src="/_thumbs/Filip_Peeters_019.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/20" onClick="$('#movieTitle').html('<strong>De Hel van Tanger</strong>');swapImage('Filip_Peeters_020.jpg',15);return false;" title="De Hel van Tanger"><img src="/_thumbs/Filip_Peeters_020.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/21" onClick="$('#movieTitle').html('<strong>De Hel van Tanger</strong>');swapImage('Filip_Peeters_021.jpg',16);return false;" title="De Hel van Tanger"><img src="/_thumbs/Filip_Peeters_021.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/22" onClick="$('#movieTitle').html('<strong>De Hel van Tanger</strong>');swapImage('Filip_Peeters_022.jpg',17);return false;" title="De Hel van Tanger"><img src="/_thumbs/Filip_Peeters_022.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/23" onClick="$('#movieTitle').html('<strong>De Hel van Tanger</strong>');swapImage('Filip_Peeters_023.jpg',18);return false;" title="De Hel van Tanger"><img src="/_thumbs/Filip_Peeters_023.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/24" onClick="$('#movieTitle').html('<strong>De Hel van Tanger</strong>');swapImage('Filip_Peeters_024.jpg',19);return false;" title="De Hel van Tanger"><img src="/_thumbs/Filip_Peeters_024.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/25" onClick="$('#movieTitle').html('<strong>De Hel van Tanger</strong>');swapImage('Filip_Peeters_025.jpg',20);return false;" title="De Hel van Tanger"><img src="/_thumbs/Filip_Peeters_025.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/26" onClick="$('#movieTitle').html('<strong>De Hel van Tanger</strong>');swapImage('Filip_Peeters_026.jpg',21);return false;" title="De Hel van Tanger"><img src="/_thumbs/Filip_Peeters_026.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/27" onClick="$('#movieTitle').html('<strong>De Hel van Tanger</strong>');swapImage('Filip_Peeters_027.jpg',22);return false;" title="De Hel van Tanger"><img src="/_thumbs/Filip_Peeters_027.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/28" onClick="$('#movieTitle').html('<strong>Dossier K</strong>');swapImage('Filip_Peeters_028.jpg',23);return false;" title="Dossier K"><img src="/_thumbs/Filip_Peeters_028.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/30" onClick="$('#movieTitle').html('<strong>Dossier K</strong>');swapImage('Filip_Peeters_030.jpg',24);return false;" title="Dossier K"><img src="/_thumbs/Filip_Peeters_030.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/31" onClick="$('#movieTitle').html('<strong></strong>');swapImage('Filip_Peeters_031.jpg',25);return false;" title=""><img src="/_thumbs/Filip_Peeters_031.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/32" onClick="$('#movieTitle').html('<strong></strong>');swapImage('Filip_Peeters_032.jpg',26);return false;" title=""><img src="/_thumbs/Filip_Peeters_032.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/33" onClick="$('#movieTitle').html('<strong></strong>');swapImage('Filip_Peeters_033.jpg',27);return false;" title=""><img src="/_thumbs/Filip_Peeters_033.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/34" onClick="$('#movieTitle').html('<strong></strong>');swapImage('Filip_Peeters_034.jpg',28);return false;" title=""><img src="/_thumbs/Filip_Peeters_034.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/36" onClick="$('#movieTitle').html('<strong>Soeur Sourire</strong>');swapImage('Filip_Peeters_036.jpg',29);return false;" title="Soeur Sourire"><img src="/_thumbs/Filip_Peeters_036.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/38" onClick="$('#movieTitle').html('<strong>Dossier K</strong>');swapImage('Filip_Peeters_038.jpg',30);return false;" title="Dossier K"><img src="/_thumbs/Filip_Peeters_038.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/40" onClick="$('#movieTitle').html('<strong>Loft</strong>');swapImage('Filip_Peeters_040.jpg',31);return false;" title="Loft"><img src="/_thumbs/Filip_Peeters_040.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/41" onClick="$('#movieTitle').html('<strong>Loft</strong>');swapImage('Filip_Peeters_041.jpg',32);return false;" title="Loft"><img src="/_thumbs/Filip_Peeters_041.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/42" onClick="$('#movieTitle').html('<strong>Loft</strong>');swapImage('Filip_Peeters_042.jpg',33);return false;" title="Loft"><img src="/_thumbs/Filip_Peeters_042.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/43" onClick="$('#movieTitle').html('<strong>Loft</strong>');swapImage('Filip_Peeters_043.jpg',34);return false;" title="Loft"><img src="/_thumbs/Filip_Peeters_043.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/44" onClick="$('#movieTitle').html('<strong>Loft</strong>');swapImage('Filip_Peeters_044.jpg',35);return false;" title="Loft"><img src="/_thumbs/Filip_Peeters_044.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/45" onClick="$('#movieTitle').html('<strong>Loft</strong>');swapImage('Filip_Peeters_045.jpg',36);return false;" title="Loft"><img src="/_thumbs/Filip_Peeters_045.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/46" onClick="$('#movieTitle').html('<strong>Loft</strong>');swapImage('Filip_Peeters_046.jpg',37);return false;" title="Loft"><img src="/_thumbs/Filip_Peeters_046.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/47" onClick="$('#movieTitle').html('<strong>Loft</strong>');swapImage('Filip_Peeters_047.jpg',38);return false;" title="Loft"><img src="/_thumbs/Filip_Peeters_047.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/48" onClick="$('#movieTitle').html('<strong>Loft</strong>');swapImage('Filip_Peeters_048.jpg',39);return false;" title="Loft"><img src="/_thumbs/Filip_Peeters_048.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/49" onClick="$('#movieTitle').html('<strong>Loft</strong>');swapImage('Filip_Peeters_049.jpg',40);return false;" title="Loft"><img src="/_thumbs/Filip_Peeters_049.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/50" onClick="$('#movieTitle').html('<strong>Loft</strong>');swapImage('Filip_Peeters_050.jpg',41);return false;" title="Loft"><img src="/_thumbs/Filip_Peeters_050.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/51" onClick="$('#movieTitle').html('<strong>Loft</strong>');swapImage('Filip_Peeters_051.jpg',42);return false;" title="Loft"><img src="/_thumbs/Filip_Peeters_051.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/52" onClick="$('#movieTitle').html('<strong>9mm</strong>');swapImage('Filip_Peeters_052.jpg',43);return false;" title="9mm"><img src="/_thumbs/Filip_Peeters_052.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/54" onClick="$('#movieTitle').html('<strong>De Indringer</strong>');swapImage('Filip_Peeters_054.jpg',44);return false;" title="De Indringer"><img src="/_thumbs/Filip_Peeters_054.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/55" onClick="$('#movieTitle').html('<strong></strong>');swapImage('Filip_Peeters_055.jpg',45);return false;" title=""><img src="/_thumbs/Filip_Peeters_055.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/57" onClick="$('#movieTitle').html('<strong>Soeur Sourire</strong>');swapImage('Filip_Peeters_057.jpg',46);return false;" title="Soeur Sourire"><img src="/_thumbs/Filip_Peeters_057.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/58" onClick="$('#movieTitle').html('<strong>Soeur Sourire</strong>');swapImage('Filip_Peeters_058.jpg',47);return false;" title="Soeur Sourire"><img src="/_thumbs/Filip_Peeters_058.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/59" onClick="$('#movieTitle').html('<strong>Soeur Sourire</strong>');swapImage('Filip_Peeters_059.jpg',48);return false;" title="Soeur Sourire"><img src="/_thumbs/Filip_Peeters_059.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/60" onClick="$('#movieTitle').html('<strong>Soeur Sourire</strong>');swapImage('Filip_Peeters_060.jpg',49);return false;" title="Soeur Sourire"><img src="/_thumbs/Filip_Peeters_060.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/61" onClick="$('#movieTitle').html('<strong>Soeur Sourire</strong>');swapImage('Filip_Peeters_061.jpg',50);return false;" title="Soeur Sourire"><img src="/_thumbs/Filip_Peeters_061.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/62" onClick="$('#movieTitle').html('<strong>De Hel van Tanger</strong>');swapImage('Filip_Peeters_062.jpg',51);return false;" title="De Hel van Tanger"><img src="/_thumbs/Filip_Peeters_062.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/72" onClick="$('#movieTitle').html('<strong>Die Frau vom Checkpoint Charlie</strong>');swapImage('frau-checkpoint-charlie-0015.jpg',52);return false;" title="Die Frau vom Checkpoint Charlie"><img src="/_thumbs/frau-checkpoint-charlie-0015.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/73" onClick="$('#movieTitle').html('<strong>Baby</strong>');swapImage('PICT0001.jpg',53);return false;" title="Baby"><img src="/_thumbs/PICT0001.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/74" onClick="$('#movieTitle').html('<strong>Baby</strong>');swapImage('PICT0014.jpg',54);return false;" title="Baby"><img src="/_thumbs/PICT0014.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/75" onClick="$('#movieTitle').html('<strong>Baby</strong>');swapImage('PICT0025.jpg',55);return false;" title="Baby"><img src="/_thumbs/PICT0025.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/76" onClick="$('#movieTitle').html('<strong>Baby</strong>');swapImage('PICT0048.jpg',56);return false;" title="Baby"><img src="/_thumbs/PICT0048.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/77" onClick="$('#movieTitle').html('<strong>Baby</strong>');swapImage('PICT0054.jpg',57);return false;" title="Baby"><img src="/_thumbs/PICT0054.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/78" onClick="$('#movieTitle').html('<strong>Baby</strong>');swapImage('PICT0058.jpg',58);return false;" title="Baby"><img src="/_thumbs/PICT0058.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/79" onClick="$('#movieTitle').html('<strong>Baby</strong>');swapImage('PICT0072.jpg',59);return false;" title="Baby"><img src="/_thumbs/PICT0072.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/80" onClick="$('#movieTitle').html('<strong>Baby</strong>');swapImage('PICT0119.jpg',60);return false;" title="Baby"><img src="/_thumbs/PICT0119.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/81" onClick="$('#movieTitle').html('<strong>Baby</strong>');swapImage('PICT0130.jpg',61);return false;" title="Baby"><img src="/_thumbs/PICT0130.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/stills/82" onClick="$('#movieTitle').html('<strong>Baby</strong>');swapImage('PICT0135.jpg',62);return false;" title="Baby"><img src="/_thumbs/PICT0135.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /></div>		</div> 
+</div>
+<script>
+	totalImages=63;
+	currentImage=27;
+	
+		imagesArray=['Filip_Peeters_001.jpg', 'Filip_Peeters_002.jpg', 'Filip_Peeters_007.jpg', 'Filip_Peeters_008.jpg', 'Filip_Peeters_009.jpg', 'Filip_Peeters_010.jpg', 'Filip_Peeters_011.jpg', 'Filip_Peeters_012.jpg', 'Filip_Peeters_013.jpg', 'Filip_Peeters_014.jpg', 'Filip_Peeters_015.jpg', 'Filip_Peeters_016.jpg', 'Filip_Peeters_017.jpg', 'Filip_Peeters_018.jpg', 'Filip_Peeters_019.jpg', 'Filip_Peeters_020.jpg', 'Filip_Peeters_021.jpg', 'Filip_Peeters_022.jpg', 'Filip_Peeters_023.jpg', 'Filip_Peeters_024.jpg', 'Filip_Peeters_025.jpg', 'Filip_Peeters_026.jpg', 'Filip_Peeters_027.jpg', 'Filip_Peeters_028.jpg', 'Filip_Peeters_030.jpg', 'Filip_Peeters_031.jpg', 'Filip_Peeters_032.jpg', 'Filip_Peeters_033.jpg', 'Filip_Peeters_034.jpg', 'Filip_Peeters_036.jpg', 'Filip_Peeters_038.jpg', 'Filip_Peeters_040.jpg', 'Filip_Peeters_041.jpg', 'Filip_Peeters_042.jpg', 'Filip_Peeters_043.jpg', 'Filip_Peeters_044.jpg', 'Filip_Peeters_045.jpg', 'Filip_Peeters_046.jpg', 'Filip_Peeters_047.jpg', 'Filip_Peeters_048.jpg', 'Filip_Peeters_049.jpg', 'Filip_Peeters_050.jpg', 'Filip_Peeters_051.jpg', 'Filip_Peeters_052.jpg', 'Filip_Peeters_054.jpg', 'Filip_Peeters_055.jpg', 'Filip_Peeters_057.jpg', 'Filip_Peeters_058.jpg', 'Filip_Peeters_059.jpg', 'Filip_Peeters_060.jpg', 'Filip_Peeters_061.jpg', 'Filip_Peeters_062.jpg', 'frau-checkpoint-charlie-0015.jpg', 'PICT0001.jpg', 'PICT0014.jpg', 'PICT0025.jpg', 'PICT0048.jpg', 'PICT0054.jpg', 'PICT0058.jpg', 'PICT0072.jpg', 'PICT0119.jpg', 'PICT0130.jpg', 'PICT0135.jpg'];
+	imagesTextArray=['', 'Dossier K', 'De Indringer', 'De Indringer', 'De Indringer', 'De Indringer', 'De Indringer', 'De Indringer', 'Dossier K', 'Baby', 'Baby', 'Baby', 'Baby', 'Baby', 'De Indringer', 'De Hel van Tanger', 'De Hel van Tanger', 'De Hel van Tanger', 'De Hel van Tanger', 'De Hel van Tanger', 'De Hel van Tanger', 'De Hel van Tanger', 'De Hel van Tanger', 'Dossier K', 'Dossier K', '', '', '', '', 'Soeur Sourire', 'Dossier K', 'Loft', 'Loft', 'Loft', 'Loft', 'Loft', 'Loft', 'Loft', 'Loft', 'Loft', 'Loft', 'Loft', 'Loft', '9mm', 'De Indringer', '', 'Soeur Sourire', 'Soeur Sourire', 'Soeur Sourire', 'Soeur Sourire', 'Soeur Sourire', 'De Hel van Tanger', 'Die Frau vom Checkpoint Charlie', 'Baby', 'Baby', 'Baby', 'Baby', 'Baby', 'Baby', 'Baby', 'Baby', 'Baby', 'Baby'];
+	
+	function swapImage(which, currentImage) {
+		$('#theImage').css('width', '');
+		$('#theImage').attr('src', '/_images/'+which);
+		$('#theImage').load(function() {
+			getW=$('#theImage').width();
+			getH=$('#theImage').height();
+			///alert(getW);
+			resizeImage();
+		});
+	}
+	function gotoImage(theAmount) {
+		thisAmount=currentImage+theAmount;
+		if(thisAmount<0) {
+			thisAmount=63-1;
+		}
+		if(thisAmount>=63) {
+			thisAmount=0;
+		}
+		currentImage=thisAmount;
+		$('#theImage').css('width', '');
+		$('#theImage').attr('src', '/_images/'+imagesArray[thisAmount]);
+		$('#theImage').load(function() {
+			getW=$('#theImage').width();
+			getH=$('#theImage').height();
+			$('#movieTitle').html('<strong>'+imagesTextArray[thisAmount]+'</strong>');
+			//alert(imagesTextArray[thisAmount]);
+			resizeImage();
+		});
+	}
+	
+	
+	function resizeImage() {
+		myHeight=$(window).height();
+		//myHeight2=myHeight;
+		myWidth=$(window).width();
+		myHeight=myHeight-175-72-50-30;
+		//alert(myHeight2 +" "+ myHeight);
+		
+		getW=$('#theImage').width();
+		getH=$('#theImage').height();
+		//
+		
+		if(getW>0) {
+					ratio=myHeight/getH;
+			$('#theImage').height(myHeight);
+			$('#theImage').width(ratio*getW);
+			offset=175+myHeight+50;
+			offset=175+myHeight+15;
+			
+		}
+		
+	}
+$('#theImage').load(function() {
+	//setTimeout("resizeImage();", 1000);
+	resizeImage();
+});	
+
+
+
+	oktoscroll='false';
+	function scrollToLeft() {
+		if(oktoscroll=='true') {
+			reel1Left=$('#reel1').position();
+			reel1X=(reel1Left.left)+1;
+			
+			reel2Left=$('#reel2').position();
+			reel2X=(reel2Left.left)+1;
+			
+			$('#reel1').css('left', reel1X+'px');
+			if(reel2X > 40 ) {
+				newX=reel2X-7031+40;
+				$('#reel1').css('left', newX+'px');
+			} else {
+				$('#reel1').css('left', reel1X+'px');
+			}
+			
+			if(reel1X > 40 ) {
+				newX=reel1X-7031+40;
+				$('#reel2').css('left', newX+'px');
+			} else {
+				$('#reel2').css('left', reel2X+'px');
+			}
+		}
+	}
+	
+	function scrollToRight() {
+		if(oktoscroll=='true') {
+			reel1Left=$('#reel1').position();
+			reel1X=(reel1Left.left)-1;
+			
+			reel2Left=$('#reel2').position();
+			reel2X=(reel2Left.left)-1;
+			
+			$('#reel1').css('left', reel1X+'px');
+			if(reel1X < (0-7031) ) {
+				newX=reel2X+7031-40;
+				$('#reel1').css('left', newX+'px');
+			} else {
+				$('#reel1').css('left', reel1X+'px');
+			}
+			
+			if(reel2X < (0-7031) ) {
+				newX=reel1X+7031-40;
+				$('#reel2').css('left', newX+'px');
+			} else {
+				$('#reel2').css('left', reel2X+'px');
+			}
+		}
+	}
+	</script>
+
+<div id="imageClicker" style="position:absolute;left:350px;bottom:136px;width:500px;">
+	<div style="position:absolute;left:0px;top:2px;">
+		<a href="#" onClick="gotoImage(-1);"><img src="/_img/arrow_full_left.jpg" border="0" /></a> 
+	</div>
+		 	
+	<div style="position:absolute;left:20px;top:2px;">
+		<a href="#" onClick="gotoImage(1);"><img src="/_img/arrow_full_right.jpg" border="0" /></a>
+	</div>	
+	<div style="position:absolute;left:40px;top:0px;font-size:12px;" id="movieTitle">
+		<strong></strong>
+	</div>
+</div>
+
+<div style="position:absolute;left:0px;bottom:18px;height:74px;background-color:#FFFFFF;" id="scrollLeft">
+	<a href="#" class="custom prev" onMouseDown="oktoscroll='true';intInterval=window.setInterval('scrollToLeft()', 1);" onMouseUp="oktoscroll='false';clearInterval(intInterval);"><img src="/_img/arrow_full_left_big.jpg" border="0" /></a> 
+</div>
+	 	
+<div style="position:absolute;right:0px;bottom:18px;height:74px;background-color:#FFFFFF;" id="scrollRight">
+	<a href="#" class="custom next" onMouseDown="oktoscroll='true';intInterval=window.setInterval('scrollToRight()', 1);" onMouseUp="oktoscroll='false';clearInterval(intInterval);"><img src="/_img/arrow_full_right_big.jpg" border="0" /></a>
+</div>	</body>
+</html>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1113451-2']);//'UA-18152665-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+
+function setSuper2(theImage){
+	$("#slide0").attr('src', '/_img_db/'+theImage);
+}
+function setMenu(ID) {
+	$('.Selected').removeClass('Selected').addClass('notSelected');
+	$('#'+ID).removeClass('notSelected').addClass('Selected');
+}
+</script>
+	<!-- activate tabs with JavaScript --> 
+<script type="text/javascript">
+// wait until document is fully scriptable
+	$(document).ready(function() {
+		thewidth=$(window).width()-(2*44); 
+	 	$("#flowpanes").width(thewidth);
+	 	
+				//resizeImage();
+			});
+</script> 

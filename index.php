@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Filip Peeters</title>
+<meta name="keywords" content="Filip Peeters, acteur, film, televisie, tv, theater" />
+<meta name="description" content="" />
+<meta name="copyright" content="Filip Peeters" />
+<meta name="classification" content="Acteren, acting, television, entertainment" />
+<meta name="language" content="en, nl" />	
+<meta name="rating" content="general" />
+<meta name="robots" content="index,follow" />
+<meta name="revisit-after" content="1 day" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="cache" content="no-cache" />
+<meta http-equiv="expires" content="-1" />
+<meta name="resource-type" content="document" />	
+<meta name="MSSmartTagsPreventParsing" content="true" />
+<meta name="distribution" content="Global" />
+<meta name="rating" content="Safe For Kids" />
+<meta name="author" content="Monsieur Moir (www.monsieurmoire.com)" />
+<meta name="doc-type" content="Web Page" />
+<meta name="doc-class" content="Completed" />
+<meta name="doc-rights" content="Copywritten Work" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="google-site-verification" content="VhkVcQ9S4enfXz-2Nq3R0UA9UsfypPWU0tHvO1K_Kpk" />
+<link href="http://www.monsieurmoire.com/" rel="author" title="Monsieur Moir (www.monsieurmoire.com)" />	
+<link rev="made" href="mailto:info@monsieurmoire.com" />
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="SHORTCUT ICON" href="/favicon.ico" />
+<script type="text/javascript" src="/_js/jquery-1.4.2.js"></script>
+<script type="text/javascript" src="/_js/video.js" charset="utf-8"></script>
+<script type="text/javascript" src="/_js/jquery.tooltip.js"></script>
+
+<link href="/_css/styles.css" rel="stylesheet" type="text/css"  />
+<!--<link href="/_css/print.css" rel="stylesheet" type="text/css" media="print"  />-->
+<link href="/_css/menu_style.css" rel="stylesheet" type="text/css" media="screen"  />
+<link href="/_css/jquery.tooltip.css" rel="stylesheet" type="text/css" media="screen" />
+
+<link href="/_css/video-js.css" rel="stylesheet" type="text/css" media="screen" title="Video JS" charset="utf-8">
+<link href="/skins/vim.css" rel="stylesheet" type="text/css" media="screen" title="Video JS" charset="utf-8"> 
+<script type="text/javascript" charset="utf-8"> 
+    function resizer() {
+    	thewidth=$(document).width()-(2*44); 
+    	
+    	
+    	
+    	    	myHeightHome=$(window).height();
+    	myWidthHome=$(window).width();
+    	myHeightHome=myHeightHome-175-30;
+    	//getWidth=$('#homeportrait').width();
+    	//getHeight=$('#homeportrait').height();
+    	ratio=myHeightHome/getHeight;
+    	$('#homeportrait').height(myHeightHome);
+    	$('#homeportrait').width(ratio*getWidth);
+    	    }
+    $(function() {
+	    $('.items a').tooltip({
+	    	track: true,
+	    	delay: 0,
+	    	showURL: false,
+	    	showBody: " - ",
+	    	extraClass: "t", 
+	    	fade: 250
+	    });
+    });
+</script> 
+
+
+</head>
+
+<body onResize="resizer();">
+<div id="logo" style="position:absolute;top:20px;left:44px;z-index:8888;">
+	<a href="/index.php"><img src="/_img/filip_peeters.png" width="217" height="38" border="0" /></a>
+</div><div id="menu" style="position:absolute;top:34px;left:350px;z-index:8888;width:600px;height:130px;overflow:hidden;">
+	
+	<div id="outside">
+	<ul id="navigation-1">
+	   <li style="width:72px;"><a href="/bio" title="About" target="_self" ><img src="/_img/about.jpg" alt="ABOUT" border="0" class="" /></a>
+	      <ul class="navigation-2">
+	      	 <li>&nbsp;</li>
+	         <li><a href="/bio" title="Bio" target="_self" ><img src="/_img/bio.jpg" alt="BIO" border="0" /></a></li>
+	         <li><a href="/cv" title="CV" target="_self" ><img src="/_img/cv.jpg" alt="CV" border="0" /></a></li>
+	         <li><a href="/awards" title="Awards" target="_self" ><img src="/_img/awards.jpg" alt="AWARDS" border="0" /></a></li>
+	      </ul>
+	   </li>
+	   <li style="width:96px;"><a href="/excerpts" title="" target="_self" ><img src="/_img/excerpts.jpg" alt="EXCERPTS" border="0" class=""  /></a></li>
+	   <li style="width:92px;"><a href="/pictures/portraits" title="" target="_self" ><img src="/_img/pictures.jpg" alt="PICTURES" border="0" class="" /></a>
+	  		<ul class="navigation-2">
+	  		   <li>&nbsp;</li>
+	   		   <li><a href="/pictures/portraits" title="Portraits" target="_self" ><img src="/_img/portraits.jpg" alt="PORTRAITS" border="0" /></a></li>
+	   		   <li><a href="/pictures/stills" title="Stills" target="_self" ><img src="/_img/stills.jpg" alt="STILLS" border="0" /></a></li>
+	   		</ul>
+	   </li>
+	   <li style="width:88px;"><a href="/contact" title="" target="_self" ><img src="/_img/contact.jpg" alt="CONTACT" border="0" class="" /></a></li>
+	</ul>
+	</div>
+	
+	
+</div><!--[if lt IE 7]>
+<div style='border: 1px solid #F7941D; background: #FEEFDA; text-align: center; clear: both; height: 75px; position: absolute;z-index:9999;'>
+  <div style='position: absolute; right: 3px; top: 3px; font-family: courier new; font-weight: bold;'><a href='#' onclick='javascript:this.parentNode.parentNode.style.display="none"; return false;'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-cornerx.jpg' style='border: none;' alt='Close this notice'/></a></div>
+  <div style='width: 640px; margin: 0 auto; text-align: left; padding: 0; overflow: hidden; color: black;'>
+    <div style='width: 75px; float: left;'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-warning.jpg' alt='Warning!'/></div>
+    <div style='width: 275px; float: left; font-family: Arial, sans-serif;'>
+      <div style='font-size: 14px; font-weight: bold; margin-top: 12px;'>You are using an outdated browser</div>
+      <div style='font-size: 12px; margin-top: 6px; line-height: 12px;'>For a better experience using this site, please upgrade to a modern web browser.</div>
+    </div>
+    <div style='width: 75px; float: left;'><a href='http://www.firefox.com' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-firefox.jpg' style='border: none;' alt='Get Firefox 3.5'/></a></div>
+    <div style='width: 75px; float: left;'><a href='http://www.browserforthebetter.com/download.html' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-ie8.jpg' style='border: none;' alt='Get Internet Explorer 8'/></a></div>
+    <div style='width: 73px; float: left;'><a href='http://www.apple.com/safari/download/' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-safari.jpg' style='border: none;' alt='Get Safari 4'/></a></div>
+    <div style='float: left;'><a href='http://www.google.com/chrome' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-chrome.jpg' style='border: none;' alt='Get Google Chrome'/></a></div>
+  </div>
+</div>
+<![endif]--><div id='image_big'><img src='/_images/Filip_Peeters_035.jpg' alt='Filip_Peeters_035.jpg' border='0' id='homeportrait' />
+</div><script>
+	$('#homeportrait').load(function() {
+		getWidth=$('#homeportrait').width();
+		getHeight=$('#homeportrait').height();
+		resizer();
+	});
+</script>
+</body>
+</html>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1113451-2']);//'UA-18152665-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+
+function setSuper2(theImage){
+	$("#slide0").attr('src', '/_img_db/'+theImage);
+}
+function setMenu(ID) {
+	$('.Selected').removeClass('Selected').addClass('notSelected');
+	$('#'+ID).removeClass('notSelected').addClass('Selected');
+}
+</script>
+	<!-- activate tabs with JavaScript --> 
+<script type="text/javascript">
+// wait until document is fully scriptable
+	$(document).ready(function() {
+		thewidth=$(window).width()-(2*44); 
+	 	$("#flowpanes").width(thewidth);
+	 	
+			});
+</script> 

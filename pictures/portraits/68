@@ -1,0 +1,268 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Filip Peeters</title>
+<meta name="keywords" content="Filip Peeters, acteur, film, televisie, tv, theater" />
+<meta name="description" content="" />
+<meta name="copyright" content="Filip Peeters" />
+<meta name="classification" content="Acteren, acting, television, entertainment" />
+<meta name="language" content="en, nl" />	
+<meta name="rating" content="general" />
+<meta name="robots" content="index,follow" />
+<meta name="revisit-after" content="1 day" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="cache" content="no-cache" />
+<meta http-equiv="expires" content="-1" />
+<meta name="resource-type" content="document" />	
+<meta name="MSSmartTagsPreventParsing" content="true" />
+<meta name="distribution" content="Global" />
+<meta name="rating" content="Safe For Kids" />
+<meta name="author" content="Monsieur Moir (www.monsieurmoire.com)" />
+<meta name="doc-type" content="Web Page" />
+<meta name="doc-class" content="Completed" />
+<meta name="doc-rights" content="Copywritten Work" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="google-site-verification" content="VhkVcQ9S4enfXz-2Nq3R0UA9UsfypPWU0tHvO1K_Kpk" />
+<link href="http://www.monsieurmoire.com/" rel="author" title="Monsieur Moir (www.monsieurmoire.com)" />	
+<link rev="made" href="mailto:info@monsieurmoire.com" />
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="SHORTCUT ICON" href="/favicon.ico" />
+<script type="text/javascript" src="/_js/jquery-1.4.2.js"></script>
+<script type="text/javascript" src="/_js/video.js" charset="utf-8"></script>
+<script type="text/javascript" src="/_js/jquery.tooltip.js"></script>
+
+<link href="/_css/styles.css" rel="stylesheet" type="text/css"  />
+<!--<link href="/_css/print.css" rel="stylesheet" type="text/css" media="print"  />-->
+<link href="/_css/menu_style.css" rel="stylesheet" type="text/css" media="screen"  />
+<link href="/_css/jquery.tooltip.css" rel="stylesheet" type="text/css" media="screen" />
+
+<link href="/_css/video-js.css" rel="stylesheet" type="text/css" media="screen" title="Video JS" charset="utf-8">
+<link href="/skins/vim.css" rel="stylesheet" type="text/css" media="screen" title="Video JS" charset="utf-8"> 
+<script type="text/javascript" charset="utf-8"> 
+    function resizer() {
+    	thewidth=$(document).width()-(2*44); 
+    	
+    	
+    	
+    	resizeImage();
+    }
+    $(function() {
+	    $('.items a').tooltip({
+	    	track: true,
+	    	delay: 0,
+	    	showURL: false,
+	    	showBody: " - ",
+	    	extraClass: "t", 
+	    	fade: 250
+	    });
+    });
+</script> 
+
+
+</head>
+
+<body onResize="resizer();">
+<div id="logo" style="position:absolute;top:20px;left:44px;z-index:8888;">
+	<a href="/index.php"><img src="/_img/filip_peeters.png" width="217" height="38" border="0" /></a>
+</div><div id="menu" style="position:absolute;top:34px;left:350px;z-index:8888;width:600px;height:130px;overflow:hidden;">
+	
+	<div id="outside">
+	<ul id="navigation-1">
+	   <li style="width:72px;"><a href="/bio" title="About" target="_self" ><img src="/_img/about.jpg" alt="ABOUT" border="0" class="" /></a>
+	      <ul class="navigation-2">
+	      	 <li>&nbsp;</li>
+	         <li><a href="/bio" title="Bio" target="_self" ><img src="/_img/bio.jpg" alt="BIO" border="0" /></a></li>
+	         <li><a href="/cv" title="CV" target="_self" ><img src="/_img/cv.jpg" alt="CV" border="0" /></a></li>
+	         <li><a href="/awards" title="Awards" target="_self" ><img src="/_img/awards.jpg" alt="AWARDS" border="0" /></a></li>
+	      </ul>
+	   </li>
+	   <li style="width:96px;"><a href="/excerpts" title="" target="_self" ><img src="/_img/excerpts.jpg" alt="EXCERPTS" border="0" class=""  /></a></li>
+	   <li style="width:92px;"><a href="/pictures/portraits" title="" target="_self" ><img src="/_img/pictures.jpg" alt="PICTURES" border="0" class="menu_selected" /></a>
+	  		<ul class="navigation-2_selected">
+	  		   <li>&nbsp;</li>
+	   		   <li><a href="/pictures/portraits" title="Portraits" target="_self" ><img src="/_img/portraits_over.jpg" alt="PORTRAITS" border="0" /></a></li>
+	   		   <li><a href="/pictures/stills" title="Stills" target="_self" ><img src="/_img/stills.jpg" alt="STILLS" border="0" /></a></li>
+	   		</ul>
+	   </li>
+	   <li style="width:88px;"><a href="/contact" title="" target="_self" ><img src="/_img/contact.jpg" alt="CONTACT" border="0" class="" /></a></li>
+	</ul>
+	</div>
+	
+	
+</div><div id="image" style="position:absolute;left:350px;top:175px;" onMouseOver="resizeImage();">
+	<img src="/_images/_NIK7515---LR.jpg"  alt="" name="" id="theImage" border="0" />
+</div>
+
+
+<div style="position: absolute;left: 0px;bottom:20px;width:100%;height:72px;overflow:hidden;" id="thumbs">
+	 		<div class="items" style="position:absolute;left:40px;width:890px;" id="reel1"><a href="/pictures/portraits/3" onClick="$('#movieTitle').html('<strong></strong>');swapImage('Filip_Peeters_003.jpg',0);return false;" title=""><img src="/_thumbs/Filip_Peeters_003.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/portraits/4" onClick="$('#movieTitle').html('<strong></strong>');swapImage('Filip_Peeters_004.jpg',1);return false;" title=""><img src="/_thumbs/Filip_Peeters_004.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/portraits/5" onClick="$('#movieTitle').html('<strong></strong>');swapImage('Filip_Peeters_005.jpg',2);return false;" title=""><img src="/_thumbs/Filip_Peeters_005.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/portraits/6" onClick="$('#movieTitle').html('<strong></strong>');swapImage('Filip_Peeters_006.jpg',3);return false;" title=""><img src="/_thumbs/Filip_Peeters_006.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/portraits/35" onClick="$('#movieTitle').html('<strong></strong>');swapImage('Filip_Peeters_035.jpg',4);return false;" title=""><img src="/_thumbs/Filip_Peeters_035.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/portraits/37" onClick="$('#movieTitle').html('<strong></strong>');swapImage('Filip_Peeters_037.jpg',5);return false;" title=""><img src="/_thumbs/Filip_Peeters_037.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/portraits/53" onClick="$('#movieTitle').html('<strong></strong>');swapImage('Filip_Peeters_053.jpg',6);return false;" title=""><img src="/_thumbs/Filip_Peeters_053.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/portraits/65" onClick="$('#movieTitle').html('<strong></strong>');swapImage('_NIK7447---LR.jpg',7);return false;" title=""><img src="/_thumbs/_NIK7447---LR.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/portraits/66" onClick="$('#movieTitle').html('<strong></strong>');swapImage('_NIK7474---LR.jpg',8);return false;" title=""><img src="/_thumbs/_NIK7474---LR.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/portraits/67" onClick="$('#movieTitle').html('<strong></strong>');swapImage('_NIK7511---LR.jpg',9);return false;" title=""><img src="/_thumbs/_NIK7511---LR.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/portraits/68" onClick="$('#movieTitle').html('<strong></strong>');swapImage('_NIK7515---LR.jpg',10);return false;" title=""><img src="/_thumbs/_NIK7515---LR.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/portraits/69" onClick="$('#movieTitle').html('<strong></strong>');swapImage('_NIK7521---LR.jpg',11);return false;" title=""><img src="/_thumbs/_NIK7521---LR.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/portraits/70" onClick="$('#movieTitle').html('<strong></strong>');swapImage('_NIK7534-18x24.jpg',12);return false;" title=""><img src="/_thumbs/_NIK7534-18x24.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/portraits/71" onClick="$('#movieTitle').html('<strong></strong>');swapImage('_NIK7538-18-x-24.jpg',13);return false;" title=""><img src="/_thumbs/_NIK7538-18-x-24.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /></div><div class="items" style="position:absolute;left:890px;width:890px;" id="reel2"><a href="/pictures/portraits/3" onClick="$('#movieTitle').html('<strong></strong>');swapImage('Filip_Peeters_003.jpg',0);return false;" title=""><img src="/_thumbs/Filip_Peeters_003.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/portraits/4" onClick="$('#movieTitle').html('<strong></strong>');swapImage('Filip_Peeters_004.jpg',1);return false;" title=""><img src="/_thumbs/Filip_Peeters_004.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/portraits/5" onClick="$('#movieTitle').html('<strong></strong>');swapImage('Filip_Peeters_005.jpg',2);return false;" title=""><img src="/_thumbs/Filip_Peeters_005.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/portraits/6" onClick="$('#movieTitle').html('<strong></strong>');swapImage('Filip_Peeters_006.jpg',3);return false;" title=""><img src="/_thumbs/Filip_Peeters_006.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/portraits/35" onClick="$('#movieTitle').html('<strong></strong>');swapImage('Filip_Peeters_035.jpg',4);return false;" title=""><img src="/_thumbs/Filip_Peeters_035.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/portraits/37" onClick="$('#movieTitle').html('<strong></strong>');swapImage('Filip_Peeters_037.jpg',5);return false;" title=""><img src="/_thumbs/Filip_Peeters_037.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/portraits/53" onClick="$('#movieTitle').html('<strong></strong>');swapImage('Filip_Peeters_053.jpg',6);return false;" title=""><img src="/_thumbs/Filip_Peeters_053.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/portraits/65" onClick="$('#movieTitle').html('<strong></strong>');swapImage('_NIK7447---LR.jpg',7);return false;" title=""><img src="/_thumbs/_NIK7447---LR.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/portraits/66" onClick="$('#movieTitle').html('<strong></strong>');swapImage('_NIK7474---LR.jpg',8);return false;" title=""><img src="/_thumbs/_NIK7474---LR.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/portraits/67" onClick="$('#movieTitle').html('<strong></strong>');swapImage('_NIK7511---LR.jpg',9);return false;" title=""><img src="/_thumbs/_NIK7511---LR.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/portraits/68" onClick="$('#movieTitle').html('<strong></strong>');swapImage('_NIK7515---LR.jpg',10);return false;" title=""><img src="/_thumbs/_NIK7515---LR.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/portraits/69" onClick="$('#movieTitle').html('<strong></strong>');swapImage('_NIK7521---LR.jpg',11);return false;" title=""><img src="/_thumbs/_NIK7521---LR.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/portraits/70" onClick="$('#movieTitle').html('<strong></strong>');swapImage('_NIK7534-18x24.jpg',12);return false;" title=""><img src="/_thumbs/_NIK7534-18x24.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /><a href="/pictures/portraits/71" onClick="$('#movieTitle').html('<strong></strong>');swapImage('_NIK7538-18-x-24.jpg',13);return false;" title=""><img src="/_thumbs/_NIK7538-18-x-24.jpg" border="0" /></a><img src="/_img/spacer.gif" width="6" border="0" /></div>		</div> 
+</div>
+<script>
+	totalImages=14;
+	currentImage=10;
+	
+		imagesArray=['Filip_Peeters_003.jpg', 'Filip_Peeters_004.jpg', 'Filip_Peeters_005.jpg', 'Filip_Peeters_006.jpg', 'Filip_Peeters_035.jpg', 'Filip_Peeters_037.jpg', 'Filip_Peeters_053.jpg', '_NIK7447---LR.jpg', '_NIK7474---LR.jpg', '_NIK7511---LR.jpg', '_NIK7515---LR.jpg', '_NIK7521---LR.jpg', '_NIK7534-18x24.jpg', '_NIK7538-18-x-24.jpg'];
+	imagesTextArray=['', '', '', '', '', '', '', '', '', '', '', '', '', ''];
+	
+	function swapImage(which, currentImage) {
+		$('#theImage').css('width', '');
+		$('#theImage').attr('src', '/_images/'+which);
+		$('#theImage').load(function() {
+			getW=$('#theImage').width();
+			getH=$('#theImage').height();
+			///alert(getW);
+			resizeImage();
+		});
+	}
+	function gotoImage(theAmount) {
+		thisAmount=currentImage+theAmount;
+		if(thisAmount<0) {
+			thisAmount=14-1;
+		}
+		if(thisAmount>=14) {
+			thisAmount=0;
+		}
+		currentImage=thisAmount;
+		$('#theImage').css('width', '');
+		$('#theImage').attr('src', '/_images/'+imagesArray[thisAmount]);
+		$('#theImage').load(function() {
+			getW=$('#theImage').width();
+			getH=$('#theImage').height();
+			$('#movieTitle').html('<strong>'+imagesTextArray[thisAmount]+'</strong>');
+			//alert(imagesTextArray[thisAmount]);
+			resizeImage();
+		});
+	}
+	
+	
+	function resizeImage() {
+		myHeight=$(window).height();
+		//myHeight2=myHeight;
+		myWidth=$(window).width();
+		myHeight=myHeight-175-72-50-30;
+		//alert(myHeight2 +" "+ myHeight);
+		
+		getW=$('#theImage').width();
+		getH=$('#theImage').height();
+		//
+		
+		if(getW>0) {
+					ratio=myHeight/getH;
+			$('#theImage').height(myHeight);
+			$('#theImage').width(ratio*getW);
+			offset=175+myHeight+50;
+			offset=175+myHeight+15;
+			
+		}
+		
+	}
+$('#theImage').load(function() {
+	//setTimeout("resizeImage();", 1000);
+	resizeImage();
+});	
+
+
+
+	oktoscroll='false';
+	function scrollToLeft() {
+		if(oktoscroll=='true') {
+			reel1Left=$('#reel1').position();
+			reel1X=(reel1Left.left)+1;
+			
+			reel2Left=$('#reel2').position();
+			reel2X=(reel2Left.left)+1;
+			
+			$('#reel1').css('left', reel1X+'px');
+			if(reel2X > 40 ) {
+				newX=reel2X-890+40;
+				$('#reel1').css('left', newX+'px');
+			} else {
+				$('#reel1').css('left', reel1X+'px');
+			}
+			
+			if(reel1X > 40 ) {
+				newX=reel1X-890+40;
+				$('#reel2').css('left', newX+'px');
+			} else {
+				$('#reel2').css('left', reel2X+'px');
+			}
+		}
+	}
+	
+	function scrollToRight() {
+		if(oktoscroll=='true') {
+			reel1Left=$('#reel1').position();
+			reel1X=(reel1Left.left)-1;
+			
+			reel2Left=$('#reel2').position();
+			reel2X=(reel2Left.left)-1;
+			
+			$('#reel1').css('left', reel1X+'px');
+			if(reel1X < (0-890) ) {
+				newX=reel2X+890-40;
+				$('#reel1').css('left', newX+'px');
+			} else {
+				$('#reel1').css('left', reel1X+'px');
+			}
+			
+			if(reel2X < (0-890) ) {
+				newX=reel1X+890-40;
+				$('#reel2').css('left', newX+'px');
+			} else {
+				$('#reel2').css('left', reel2X+'px');
+			}
+		}
+	}
+	</script>
+
+<div id="imageClicker" style="position:absolute;left:350px;bottom:136px;width:500px;">
+	<div style="position:absolute;left:0px;top:2px;">
+		<a href="#" onClick="gotoImage(-1);"><img src="/_img/arrow_full_left.jpg" border="0" /></a> 
+	</div>
+		 	
+	<div style="position:absolute;left:20px;top:2px;">
+		<a href="#" onClick="gotoImage(1);"><img src="/_img/arrow_full_right.jpg" border="0" /></a>
+	</div>	
+	<div style="position:absolute;left:40px;top:0px;font-size:12px;" id="movieTitle">
+		<strong></strong>
+	</div>
+</div>
+
+<div style="position:absolute;left:0px;bottom:18px;height:74px;background-color:#FFFFFF;" id="scrollLeft">
+	<a href="#" class="custom prev" onMouseDown="oktoscroll='true';intInterval=window.setInterval('scrollToLeft()', 1);" onMouseUp="oktoscroll='false';clearInterval(intInterval);"><img src="/_img/arrow_full_left_big.jpg" border="0" /></a> 
+</div>
+	 	
+<div style="position:absolute;right:0px;bottom:18px;height:74px;background-color:#FFFFFF;" id="scrollRight">
+	<a href="#" class="custom next" onMouseDown="oktoscroll='true';intInterval=window.setInterval('scrollToRight()', 1);" onMouseUp="oktoscroll='false';clearInterval(intInterval);"><img src="/_img/arrow_full_right_big.jpg" border="0" /></a>
+</div>	</body>
+</html>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1113451-2']);//'UA-18152665-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+
+function setSuper2(theImage){
+	$("#slide0").attr('src', '/_img_db/'+theImage);
+}
+function setMenu(ID) {
+	$('.Selected').removeClass('Selected').addClass('notSelected');
+	$('#'+ID).removeClass('notSelected').addClass('Selected');
+}
+</script>
+	<!-- activate tabs with JavaScript --> 
+<script type="text/javascript">
+// wait until document is fully scriptable
+	$(document).ready(function() {
+		thewidth=$(window).width()-(2*44); 
+	 	$("#flowpanes").width(thewidth);
+	 	
+				//resizeImage();
+			});
+</script> 
