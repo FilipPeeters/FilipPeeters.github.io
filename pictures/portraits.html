@@ -44,15 +44,8 @@
     	
     	
     	
-    	    	myHeightHome=$(window).height();
-    	myWidthHome=$(window).width();
-    	myHeightHome=myHeightHome-175-30;
-    	//getWidth=$('#homeportrait').width();
-    	//getHeight=$('#homeportrait').height();
-    	ratio=myHeightHome/getHeight;
-    	$('#homeportrait').height(myHeightHome);
-    	$('#homeportrait').width(ratio*getWidth);
-    	    }
+    	resizeImage();
+    }
     $(function() {
 	    $('.items a').tooltip({
 	    	track: true,
@@ -84,7 +77,7 @@
 	      </ul>
 	   </li>
 	   <li style="width:96px;"><a href="/excerpts" title="" target="_self" ><img src="/_img/excerpts.jpg" alt="EXCERPTS" border="0" class=""  /></a></li>
-	   <li style="width:92px;"><a href="/pictures/portraits" title="" target="_self" ><img src="/_img/pictures.jpg" alt="PICTURES" border="0" class="" /></a>
+	   <li style="width:92px;"><a href="/pictures/portraits" title="" target="_self" ><img src="/_img/pictures.jpg" alt="PICTURES" border="0" class="menu_selected" /></a>
 	  		<ul class="navigation-2">
 	  		   <li>&nbsp;</li>
 	   		   <li><a href="/pictures/portraits" title="Portraits" target="_self" ><img src="/_img/portraits.jpg" alt="PORTRAITS" border="0" /></a></li>
@@ -96,30 +89,152 @@
 	</div>
 	
 	
-</div><!--[if lt IE 7]>
-<div style='border: 1px solid #F7941D; background: #FEEFDA; text-align: center; clear: both; height: 75px; position: absolute;z-index:9999;'>
-  <div style='position: absolute; right: 3px; top: 3px; font-family: courier new; font-weight: bold;'><a href='#' onclick='javascript:this.parentNode.parentNode.style.display="none"; return false;'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-cornerx.jpg' style='border: none;' alt='Close this notice'/></a></div>
-  <div style='width: 640px; margin: 0 auto; text-align: left; padding: 0; overflow: hidden; color: black;'>
-    <div style='width: 75px; float: left;'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-warning.jpg' alt='Warning!'/></div>
-    <div style='width: 275px; float: left; font-family: Arial, sans-serif;'>
-      <div style='font-size: 14px; font-weight: bold; margin-top: 12px;'>You are using an outdated browser</div>
-      <div style='font-size: 12px; margin-top: 6px; line-height: 12px;'>For a better experience using this site, please upgrade to a modern web browser.</div>
-    </div>
-    <div style='width: 75px; float: left;'><a href='http://www.firefox.com' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-firefox.jpg' style='border: none;' alt='Get Firefox 3.5'/></a></div>
-    <div style='width: 75px; float: left;'><a href='http://www.browserforthebetter.com/download.html' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-ie8.jpg' style='border: none;' alt='Get Internet Explorer 8'/></a></div>
-    <div style='width: 73px; float: left;'><a href='http://www.apple.com/safari/download/' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-safari.jpg' style='border: none;' alt='Get Safari 4'/></a></div>
-    <div style='float: left;'><a href='http://www.google.com/chrome' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-chrome.jpg' style='border: none;' alt='Get Google Chrome'/></a></div>
-  </div>
+</div><div id="image" style="position:absolute;left:350px;top:175px;" onMouseOver="resizeImage();">
+	<img src="/_img/spacer.gif"  alt="" name="" id="theImage" border="0" />
 </div>
-<![endif]--><div id='image_big'><img src='/_images/Filip_Peeters_035.jpg' alt='Filip_Peeters_035.jpg' border='0' id='homeportrait' />
-</div><script>
-	$('#homeportrait').load(function() {
-		getWidth=$('#homeportrait').width();
-		getHeight=$('#homeportrait').height();
-		resizer();
-	});
-</script>
-</body>
+
+
+<div style="position: absolute;left: 0px;bottom:20px;width:100%;height:72px;overflow:hidden;" id="thumbs">
+	 		<div class="items" style="position:absolute;left:40px;width:40px;" id="reel1"></div><div class="items" style="position:absolute;left:40px;width:40px;" id="reel2"></div>		</div> 
+</div>
+<script>
+	totalImages=0;
+	currentImage=;
+	
+		imagesArray=[];
+	imagesTextArray=[];
+	
+	function swapImage(which, currentImage) {
+		$('#theImage').css('width', '');
+		$('#theImage').attr('src', '/_images/'+which);
+		$('#theImage').load(function() {
+			getW=$('#theImage').width();
+			getH=$('#theImage').height();
+			///alert(getW);
+			resizeImage();
+		});
+	}
+	function gotoImage(theAmount) {
+		thisAmount=currentImage+theAmount;
+		if(thisAmount<0) {
+			thisAmount=0-1;
+		}
+		if(thisAmount>=0) {
+			thisAmount=0;
+		}
+		currentImage=thisAmount;
+		$('#theImage').css('width', '');
+		$('#theImage').attr('src', '/_images/'+imagesArray[thisAmount]);
+		$('#theImage').load(function() {
+			getW=$('#theImage').width();
+			getH=$('#theImage').height();
+			$('#movieTitle').html('<strong>'+imagesTextArray[thisAmount]+'</strong>');
+			//alert(imagesTextArray[thisAmount]);
+			resizeImage();
+		});
+	}
+	
+	
+	function resizeImage() {
+		myHeight=$(window).height();
+		//myHeight2=myHeight;
+		myWidth=$(window).width();
+		myHeight=myHeight-175-72-50-30;
+		//alert(myHeight2 +" "+ myHeight);
+		
+		getW=$('#theImage').width();
+		getH=$('#theImage').height();
+		//
+		
+		if(getW>0) {
+					ratio=myHeight/getH;
+			$('#theImage').height(myHeight);
+			$('#theImage').width(ratio*getW);
+			offset=175+myHeight+50;
+			offset=175+myHeight+15;
+			
+		}
+		
+	}
+$('#theImage').load(function() {
+	//setTimeout("resizeImage();", 1000);
+	resizeImage();
+});	
+
+
+
+	oktoscroll='false';
+	function scrollToLeft() {
+		if(oktoscroll=='true') {
+			reel1Left=$('#reel1').position();
+			reel1X=(reel1Left.left)+1;
+			
+			reel2Left=$('#reel2').position();
+			reel2X=(reel2Left.left)+1;
+			
+			$('#reel1').css('left', reel1X+'px');
+			if(reel2X > 40 ) {
+				newX=reel2X-40+40;
+				$('#reel1').css('left', newX+'px');
+			} else {
+				$('#reel1').css('left', reel1X+'px');
+			}
+			
+			if(reel1X > 40 ) {
+				newX=reel1X-40+40;
+				$('#reel2').css('left', newX+'px');
+			} else {
+				$('#reel2').css('left', reel2X+'px');
+			}
+		}
+	}
+	
+	function scrollToRight() {
+		if(oktoscroll=='true') {
+			reel1Left=$('#reel1').position();
+			reel1X=(reel1Left.left)-1;
+			
+			reel2Left=$('#reel2').position();
+			reel2X=(reel2Left.left)-1;
+			
+			$('#reel1').css('left', reel1X+'px');
+			if(reel1X < (0-40) ) {
+				newX=reel2X+40-40;
+				$('#reel1').css('left', newX+'px');
+			} else {
+				$('#reel1').css('left', reel1X+'px');
+			}
+			
+			if(reel2X < (0-40) ) {
+				newX=reel1X+40-40;
+				$('#reel2').css('left', newX+'px');
+			} else {
+				$('#reel2').css('left', reel2X+'px');
+			}
+		}
+	}
+	</script>
+
+<div id="imageClicker" style="position:absolute;left:350px;bottom:136px;width:500px;">
+	<div style="position:absolute;left:0px;top:2px;">
+		<a href="#" onClick="gotoImage(-1);"><img src="/_img/arrow_full_left.jpg" border="0" /></a> 
+	</div>
+		 	
+	<div style="position:absolute;left:20px;top:2px;">
+		<a href="#" onClick="gotoImage(1);"><img src="/_img/arrow_full_right.jpg" border="0" /></a>
+	</div>	
+	<div style="position:absolute;left:40px;top:0px;font-size:12px;" id="movieTitle">
+		<strong></strong>
+	</div>
+</div>
+
+<div style="position:absolute;left:0px;bottom:18px;height:74px;background-color:#FFFFFF;" id="scrollLeft">
+	<a href="#" class="custom prev" onMouseDown="oktoscroll='true';intInterval=window.setInterval('scrollToLeft()', 1);" onMouseUp="oktoscroll='false';clearInterval(intInterval);"><img src="/_img/arrow_full_left_big.jpg" border="0" /></a> 
+</div>
+	 	
+<div style="position:absolute;right:0px;bottom:18px;height:74px;background-color:#FFFFFF;" id="scrollRight">
+	<a href="#" class="custom next" onMouseDown="oktoscroll='true';intInterval=window.setInterval('scrollToRight()', 1);" onMouseUp="oktoscroll='false';clearInterval(intInterval);"><img src="/_img/arrow_full_right_big.jpg" border="0" /></a>
+</div>	</body>
 </html>
 <script type="text/javascript">
   var _gaq = _gaq || [];
@@ -148,5 +263,6 @@ function setMenu(ID) {
 		thewidth=$(window).width()-(2*44); 
 	 	$("#flowpanes").width(thewidth);
 	 	
+				//resizeImage();
 			});
 </script> 
