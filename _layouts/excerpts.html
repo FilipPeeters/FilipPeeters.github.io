@@ -3,7 +3,18 @@ layout: page
 excerpts_selected: menu_selected
 ---
 <div id="excerpts_list">
-<span class="excerptLink_over"><a href="/excerpts/showreel">Showreel</a></span><br /><span class="excerptLink"><a href="/excerpts/soeursourire">Soeur Sourire</a></span><br /><span class="excerptLink"><a href="/excerpts/de_hel_van_tanger">De Hel van Tanger</a></span><br /><span class="excerptLink"><a href="/excerpts/stratospheregirl">Stratospheregirl</a></span><br /><span class="excerptLink"><a href="/excerpts/de_indringer">De Indringer</a></span><br /><span class="excerptLink"><a href="/excerpts/loft">Loft</a></span><br /><span class="excerptLink"><a href="/excerpts/baby">Baby</a></span><br /><span class="excerptLink"><a href="/excerpts/die_frau_vom_checkpoint_charlie">Die Frau vom Checkpoint Charlie</a></span><br /><span class="excerptLink"><a href="/excerpts/9mm">9mm</a></span><br /><span class="excerptLink"><a href="/excerpts/resistance">Resistance</a></span><br /><span class="excerptLink"><a href="/excerpts/ein_langer_abschied">Ein Langer Abschied</a></span><br /><span class="excerptLink"><a href="/excerpts/10_sekunden">10 Sekunden</a></span><br />	
+  <span class="{% if page.title == 'trailer' %} excerptLink_over {% else %} excerptLink {% endif %}"><a href="/excerpts/showreel.html">Showreel</a></span><br/>
+  <span class="{% if page.title == 'soeursourire' %}excerptLink_over{% else %}excerptLink{%endif%}"><a href="/excerpts/soeursourire.html">Soeur Sourire</a></span><br />
+  <span class="{% if page.title == 'helltanger' %}excerptLink_over{% else %}excerptLink{% endif %}"><a href="/excerpts/de_hel_van_tanger.html">De Hel van Tanger</a></span><br />
+  <span class="{%if page.title == 'stratospheregirl'%}excerptLink_over{%else%}excerptLink{%endif%}"><a href="/excerpts/stratospheregirl.html">Stratospheregirl</a></span><br />
+  <span class="{%if page.title == 'deindringer'%}excerptLink_over{%else%}excerptLink{%endif%}"><a href="/excerpts/de_indringer.html">De Indringer</a></span><br/>
+  <span class="{%if page.title == 'loft'%}excerptLink_over{%else%}excerptLink{%endif%}"><a href="/excerpts/loft.html">Loft</a></span><br/>
+  <span class="{%if page.title == 'baby'%}excerptLink_over{%else%}excerptLink{%endif%}"><a href="/excerpts/baby.html">Baby</a></span><br/>
+  <span class="{%if page.title == 'diefrauvomcheckpointcharlie'%}excerptLink_over{%else%}excerptLink{%endif%}"><a href="/excerpts/die_frau_vom_checkpoint_charlie.html">Die Frau vom Checkpoint Charlie</a></span><br/>
+  <span class="{%if page.title == '9mm'%}excerptLink_over{%else%}excerptLink{%endif%}"><a href="/excerpts/9mm.html">9mm</a></span><br/>
+  <span class="{%if page.title == 'resistance'%}excerptLink_over{%else%}excerptLink{%endif%}"><a href="/excerpts/resistance.html">Resistance</a></span><br/>
+  <span class="{%if page.title == 'einlangesabschied'%}excerptLink_over{%else%}excerptLink{%endif%}"><a href="/excerpts/ein_langer_abschied.html">Ein Langer Abschied</a></span><br/>
+  <span class="{%if page.title == '10sekunden'%}excerptLink_over{%else%}excerptLink{%endif%}"><a href="/excerpts/10_sekunden.html">10 Sekunden</a></span><br />	
 </div>
 <div id="videos">
 	
