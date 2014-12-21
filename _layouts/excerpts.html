@@ -1,0 +1,62 @@
+---
+layout: page
+excerpts_selected: menu_selected
+---
+<div id="excerpts_list">
+<span class="excerptLink_over"><a href="/excerpts/showreel">Showreel</a></span><br /><span class="excerptLink"><a href="/excerpts/soeursourire">Soeur Sourire</a></span><br /><span class="excerptLink"><a href="/excerpts/de_hel_van_tanger">De Hel van Tanger</a></span><br /><span class="excerptLink"><a href="/excerpts/stratospheregirl">Stratospheregirl</a></span><br /><span class="excerptLink"><a href="/excerpts/de_indringer">De Indringer</a></span><br /><span class="excerptLink"><a href="/excerpts/loft">Loft</a></span><br /><span class="excerptLink"><a href="/excerpts/baby">Baby</a></span><br /><span class="excerptLink"><a href="/excerpts/die_frau_vom_checkpoint_charlie">Die Frau vom Checkpoint Charlie</a></span><br /><span class="excerptLink"><a href="/excerpts/9mm">9mm</a></span><br /><span class="excerptLink"><a href="/excerpts/resistance">Resistance</a></span><br /><span class="excerptLink"><a href="/excerpts/ein_langer_abschied">Ein Langer Abschied</a></span><br /><span class="excerptLink"><a href="/excerpts/10_sekunden">10 Sekunden</a></span><br />	
+</div>
+<div id="videos">
+	
+<script>
+	theWidth=640;
+	theHeight=360	
+	checkWindowWidth=$(window).width();
+	checkWindowHeight=$(window).height();
+	offset = $('#videos').offset();
+	//check if video !> window
+	if(offset.left+640 > checkWindowWidth) {
+		//alert(offset.left+640 + ' '+checkWindowWidth);
+		//calculate new width/height
+		newVideoWidth=checkWindowWidth-offset.left-80;
+		newVideoHeight= ( 360 / 640 ) * newVideoWidth;
+		//override video width/height
+	        theWidth=newVideoWidth;
+		theHeight=newVideoHeight;
+	}
+	</script>
+
+  <!-- Begin VideoJS -->
+  <div class="video-js-box vim-css" id="theVideo">
+  	<!-- Using the Video for Everybody Embed Code http://camendesign.com/code/video_for_everybody -->
+        <video id="example_video_1" class="video-js" width="640" height="360" poster="/images/{{page.title}}.jpg" controls preload autoplay>
+        <source src="/movies/{{page.title}}.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+        <source src="/movies/{{page.title}}.ogg" type='video/ogg; codecs="theora, vorbis"'>
+  	  
+  	  <!-- Flash Fallback. Use any flash video player here. Make sure to keep the vjs-flash-fallback class. -->
+  	  <object id="flashVideo" class="vjs-flash-fallback" width="640" height="360" type="application/x-shockwave-flash"
+  	    data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf">
+  	    <param name="movie" value="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" />
+  	    <param name="allowfullscreen" value="true" />
+  	    <param name="bgcolor" value="#000000" /> 
+            <param name="flashvars" value='config={"playlist":["/images/{{page.title}}.jpg", {"url": "/movies/{{page.title}}.mp4","autoPlay":true,"autoBuffering":true, "scaling": "fit"}]}' />
+  	    <!-- Image Fallback. Typically the same as the poster image. -->
+            <img src="/images/{{page.title}}.jpg" width="640" height="360" alt="Poster Image"
+  	      title="No video playback capabilities." id="theImage" />
+  	  </object>
+  	</video>
+  </div>
+  <!-- End VideoJS -->
+  
+<script type="text/javascript" charset="utf-8"> 
+    // Using JQuery's DOM Ready function
+    // You can also use window.onload, but it loads slower
+    $(function(){
+      VideoJS.setup();
+    })
+    // If not using a JS library
+    // window.onload = function(){
+    //   VideoJS.setup();
+    // }
+</script> 
+</div> 
+{{ contents }}
