@@ -14,12 +14,16 @@ portraits_over: _over
 
 </div>
 <script>
-	totalImages=14;
-        currentImage=9;
 
 	imagesArray=['Filip_Peeters_003.jpg', 'Filip_Peeters_004.jpg', 'Filip_Peeters_005.jpg', 'Filip_Peeters_006.jpg', 'Filip_Peeters_035.jpg', 'Filip_Peeters_037.jpg', 'Filip_Peeters_053.jpg', 'NIK7447---LR.jpg', 'NIK7474---LR.jpg', 'NIK7511---LR.jpg', 'NIK7515---LR.jpg', 'NIK7521---LR.jpg', 'NIK7534-18x24.jpg', 'NIK7538-18-x-24.jpg'];
 	imagesTextArray=['', '', '', '', '', '', '', '', '', '', '', '', '', ''];
-	
+	totalImages=imagesArray.length;
+        currentImage=getRandomInt(0, totalImages);
+
+        function getRandomInt(min, max) {
+          return Math.floor(Math.random() * (max - min)) + min;
+        }
+
 	function swapImage(which, currentImage) {
 		$('#theImage').css('width', '');
 		$('#theImage').attr('src', '/images/'+which);
