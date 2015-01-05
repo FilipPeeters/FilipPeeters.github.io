@@ -1,0 +1,168 @@
+---
+layout: page
+pictures_selected: menu_selected
+pictures_sub: _selected
+portraits_over: _over
+---
+</div><div id="image" style="position:absolute;left:350px;top:175px;" onMouseOver="resizeImage();">
+	<img src="/images/Filip_Peeters_042.jpg"  alt="" name="" id="theImage" border="0" />
+</div>
+
+
+<div style="position: absolute;left: 0px;bottom:20px;width:100%;height:72px;overflow:hidden;" id="thumbs">
+  {% capture all_thumbs %}
+    {% assign i = 1 %}
+    {% for image in page.imagesArray %}
+    <a href="/pictures/portraits/{{ i }}" onClick="$('#movieTitle').html('<strong></strong>');swapImage({{ image }});return false;" title="">
+      <img src="/thumbs/{{ image }}" border="0" />
+    </a>
+    <img src="/img/spacer.gif" width="6" border="0" />
+    {% assign i = i + 1 %}
+    {% endfor %}
+  {% endcapture %}
+  <div class="items" style="position:absolute;left:40px;width:890px;" id="reel1">
+    {{ all_thumbs }}
+  </div>
+  <div class="items" style="position:absolute;left:890px;width:890px;" id="reel2">
+    {{ all_thumbs }}
+  </div>
+
+</div>
+<script>
+        $('#theImage').hide();
+        imagesArray = [{% for image in page.imagesArray %}'{{ image }}', {% endfor %}];
+        imagesTextArray = [{% for title in page.imagesTextArray %}'{{ title }}', {% endfor %}];
+	totalImages=imagesArray.length;
+        currentImage=getRandomInt(0, totalImages);
+
+        function getRandomInt(min, max) {
+          return Math.floor(Math.random() * (max - min)) + min;
+        }
+
+	function swapImage(which) {
+		$('#theImage').css('width', '');
+		$('#theImage').attr('src', '/images/'+which);
+		$('#theImage').load(function() {
+			resizeImage();
+		});
+                currentImage = imagesArray.indexOf(which);
+	}
+	function gotoImage(theAmount) {
+		thisAmount=currentImage+theAmount;
+		if(thisAmount<0) {
+			thisAmount=totalImages-1;
+		}
+		if(thisAmount>=totalImages) {
+			thisAmount=0;
+		}
+		currentImage=thisAmount;
+		$('#theImage').css('width', '');
+		$('#theImage').attr('src', '/images/'+imagesArray[thisAmount]);
+		$('#theImage').load(function() {
+			$('#movieTitle').html('<strong>'+imagesTextArray[thisAmount]+'</strong>');
+			//alert(imagesTextArray[thisAmount]);
+			resizeImage();
+		});
+	}
+	
+	
+	function resizeImage() {
+		myHeight=$(window).height();
+		myWidth=$(window).width();
+		myHeight=myHeight-175-72-50-30;
+		
+		getW=$('#theImage').width();
+		getH=$('#theImage').height();
+		
+		if(getW>0) {
+			ratio=myHeight/getH;
+			$('#theImage').height(myHeight);
+			$('#theImage').width(ratio*getW);
+			offset=175+myHeight+50;
+			offset=175+myHeight+15;
+			
+		}
+		
+	}
+$('#theImage').load(function() {
+        img = $('#theImage');
+        img.css('width', '');
+	img.attr('src', '/images/' + imagesArray[currentImage]);
+        resizeImage();
+        img.show();
+});	
+
+        totalWidth = 890;
+	oktoscroll='false';
+	function scrollToLeft() {
+		if(oktoscroll=='true') {
+			reel1Left=$('#reel1').position();
+			reel1X=(reel1Left.left)+1;
+			
+			reel2Left=$('#reel2').position();
+			reel2X=(reel2Left.left)+1;
+			
+			$('#reel1').css('left', reel1X+'px');
+			if(reel2X > 40 ) {
+				newX=reel2X-totalWidth+40;
+				$('#reel1').css('left', newX+'px');
+			} else {
+				$('#reel1').css('left', reel1X+'px');
+			}
+			
+			if(reel1X > 40 ) {
+				newX=reel1X-totalWidth+40;
+				$('#reel2').css('left', newX+'px');
+			} else {
+				$('#reel2').css('left', reel2X+'px');
+			}
+		}
+	}
+	
+	function scrollToRight() {
+		if(oktoscroll=='true') {
+			reel1Left=$('#reel1').position();
+			reel1X=(reel1Left.left)-1;
+			
+			reel2Left=$('#reel2').position();
+			reel2X=(reel2Left.left)-1;
+			
+			$('#reel1').css('left', reel1X+'px');
+			if(reel1X < (0-totalWidth) ) {
+				newX=reel2X+totalWidth-40;
+				$('#reel1').css('left', newX+'px');
+			} else {
+                                //redundant - remove
+				$('#reel1').css('left', reel1X+'px');
+			}
+			
+			if(reel2X < (0-totalWidth) ) {
+				newX=reel1X+totalWidth-40;
+				$('#reel2').css('left', newX+'px');
+			} else {
+				$('#reel2').css('left', reel2X+'px');
+			}
+		}
+	}
+	</script>
+
+<div id="imageClicker" style="position:absolute;left:350px;bottom:136px;width:500px;">
+	<div style="position:absolute;left:0px;top:2px;">
+		<a href="#" onClick="gotoImage(-1);"><img src="/img/arrow_full_left.jpg" border="0" /></a> 
+	</div>
+		 	
+	<div style="position:absolute;left:20px;top:2px;">
+		<a href="#" onClick="gotoImage(1);"><img src="/img/arrow_full_right.jpg" border="0" /></a>
+	</div>	
+	<div style="position:absolute;left:40px;top:0px;font-size:12px;" id="movieTitle">
+		<strong></strong>
+	</div>
+</div>
+
+<div style="position:absolute;left:0px;bottom:18px;height:74px;background-color:#FFFFFF;" id="scrollLeft">
+	<a href="#" class="custom prev" onMouseDown="oktoscroll='true';intInterval=window.setInterval('scrollToLeft()', 1);" onMouseUp="oktoscroll='false';clearInterval(intInterval);"><img src="/img/arrow_full_left_big.jpg" border="0" /></a> 
+</div>
+	 	
+<div style="position:absolute;right:0px;bottom:18px;height:74px;background-color:#FFFFFF;" id="scrollRight">
+	<a href="#" class="custom next" onMouseDown="oktoscroll='true';intInterval=window.setInterval('scrollToRight()', 1);" onMouseUp="oktoscroll='false';clearInterval(intInterval);"><img src="/img/arrow_full_right_big.jpg" border="0" /></a>
+</div>	
