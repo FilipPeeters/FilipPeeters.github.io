@@ -22,7 +22,7 @@ portraits_over: _over
   <div class="items" style="position:absolute;left:40px;" id="reel1">
     {{ all_thumbs }}
   </div>
-  <div class="items" style="position:absolute;left:869px;" id="reel2">
+  <div class="items" style="position:absolute;left:{{ page.totalWidth }}px;" id="reel2">
     {{ all_thumbs }}
   </div>
 
@@ -59,7 +59,6 @@ portraits_over: _over
 		$('#theImage').attr('src', '/images/'+imagesArray[thisAmount]);
 		$('#theImage').load(function() {
 			$('#movieTitle').html('<strong>'+imagesTextArray[thisAmount]+'</strong>');
-			//alert(imagesTextArray[thisAmount]);
 			resizeImage();
 		});
 	}
@@ -91,7 +90,7 @@ $('#theImage').load(function() {
         img.show();
 });	
 
-        totalWidth = 869;
+        totalWidth = {{ page.totalWidth }};
 	oktoscroll='false';
 	function scrollToLeft() {
 		if(oktoscroll=='true') {
