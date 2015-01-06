@@ -16,14 +16,13 @@ portraits_over: _over
     <a href="/pictures/portraits/{{ i }}" onClick="$('#movieTitle').html('<strong></strong>');swapImage({{ image }});return false;" title="">
       <img src="/thumbs/{{ image }}" border="0" />
     </a>
-    <img src="/img/spacer.gif" width="6" border="0" />
     {% assign i = i + 1 %}
     {% endfor %}
   {% endcapture %}
-  <div class="items" style="position:absolute;left:40px;width:890px;" id="reel1">
+  <div class="items" style="position:absolute;left:40px;" id="reel1">
     {{ all_thumbs }}
   </div>
-  <div class="items" style="position:absolute;left:890px;width:890px;" id="reel2">
+  <div class="items" style="position:absolute;left:869px;" id="reel2">
     {{ all_thumbs }}
   </div>
 
@@ -92,7 +91,7 @@ $('#theImage').load(function() {
         img.show();
 });	
 
-        totalWidth = 890;
+        totalWidth = 869;
 	oktoscroll='false';
 	function scrollToLeft() {
 		if(oktoscroll=='true') {
