@@ -10,12 +10,10 @@ pictures_sub: _selected
 
 <div style="position: absolute;left: 0px;bottom:20px;width:100%;height:72px;overflow:hidden;" id="thumbs">
   {% capture all_thumbs %}
-    {% assign i = 1 %}
     {% for image in page.imagesArray %}
-    <a href="/pictures/portraits/{{ i }}" onClick="$('#movieTitle').html('<strong></strong>');swapImage({{ image }});return false;" title="">
+    <a href="/pictures/portraits/{{ forloop.index }}" onClick="$('#movieTitle').html('<strong></strong>');swapImage('{{ image }}');return false;" title="">
       <img src="/thumbs/{{ image }}" border="0" />
     </a>
-    {% assign i = i + 1 %}
     {% endfor %}
   {% endcapture %}
   <div class="items" style="position:absolute;left:40px;" id="reel1">
@@ -43,7 +41,8 @@ pictures_sub: _selected
 		$('#theImage').load(function() {
 			resizeImage();
 		});
-                currentImage = imagesArray.indexOf(which);
+                currentImage = 0;
+                gotoImage(imagesArray.indexOf(which));
 	}
 	function gotoImage(theAmount) {
 		thisAmount=currentImage+theAmount;
