@@ -36,11 +36,6 @@ pictures_sub: _selected
         }
 
 	function swapImage(which) {
-		$('#theImage').css('width', '');
-		$('#theImage').attr('src', '/images/'+which);
-		$('#theImage').load(function() {
-			resizeImage();
-		});
                 currentImage = 0;
                 gotoImage(imagesArray.indexOf(which));
 	}
