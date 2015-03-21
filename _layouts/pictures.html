@@ -11,8 +11,8 @@ pictures_sub: _selected
 <div style="position: absolute;left: 0px;bottom:20px;width:100%;height:72px;overflow:hidden;" id="thumbs">
   {% capture all_thumbs %}
     {% for image in page.imagesArray %}
-    <a href="/pictures/portraits/{{ forloop.index }}" onClick="$('#movieTitle').html('<strong></strong>');swapImage('{{ image }}');return false;" title="">
-      <img src="/thumbs/{{ image }}" border="0" />
+    <a href="/pictures/portraits/{{ forloop.index }}" onClick="$('#movieTitle').html('<strong></strong>');swapImage('{{ image }}');return false;" title="" >
+      <img src="/thumbs/{{ image }}"/>
     </a>
     {% endfor %}
   {% endcapture %}
